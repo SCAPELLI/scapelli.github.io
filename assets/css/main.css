@@ -2948,10 +2948,18 @@ body.is-touch .tiles article .content {
 }
 
 
+/* ---------- ABOUT ME ------------ */
+#about-me {
+	/* height: 100px; */
+	margin: 20px auto;
+	/* background-color: #7bd0c1; */
+	text-align: center;
+}
+
 /* ---------------------- */
 
 #header_2-wrapper {
-	height: 300px; /* Alto fijo deseado para el contenedor */
+	height: 250px; /* Alto fijo deseado para el contenedor */
 	margin: 0 auto; /* Centrar el contenedor horizontalmente */
   }
 
