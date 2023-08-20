@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background: #ffffff;
+	background: linear-gradient(#4c7a88, #d0d863); 
 }
 
 body.is-preload *,
@@ -212,7 +212,7 @@ body,
 input,
 select,
 textarea {
-	color: #585858;
+	color: #000000;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 16pt;
 	font-weight: 300;
@@ -2947,12 +2947,36 @@ body.is-touch .tiles article .content {
 
 }
 
+/* ---------- PICTURE ------------ */
+#picture {
+	height: 200px;
+	width: 200px;
+	margin: 20px auto;
+	border-radius: 50%;
+}
 
-/* ---------- ABOUT ME ------------ */
+#about-me-container {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+#padding {
+	height: 200px;
+	width: 200px;
+	margin: 20px auto;
+	border-radius: 50%;
+}
+
+
+/* ---------- ABOUT ME ------------ */	
 #about-me {
 	/* height: 100px; */
 	margin: 20px auto;
-	/* background-color: #7bd0c1; */
 	text-align: center;
 }
 
@@ -2984,6 +3008,7 @@ body.is-touch .tiles article .content {
 	/* background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
 	background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 	/* background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
+	
 	max-width: 100%;
 	text-align: center;
 }
