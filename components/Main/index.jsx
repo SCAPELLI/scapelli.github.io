@@ -43,7 +43,7 @@ const index = () => {
               </a>
             </div>
             <div className="rounded-full shadow-custom-large shadow-gray-400 p-6 cursor-pointer hover:scale-120 ease-in duration-200">
-              <a href="https://github.com/LucianoCerullo77" target="_blank">
+              <a href="https://github.com/scapelli" target="_blank">
                 <FaGithub size={30}/>
               </a>
             </div>

@@ -1,15 +1,24 @@
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/router";
+import en from "../../public/locales/en";
+import es from "../../public/locales/es";
 
 const index = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : es;
+
   return (
     <div id="skills" className="w-full lg:h-screen pt-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#ab1c1c]">
-          Skills
+          {t.sections.skills.title}
         </p>
-        <h2 className="py-4">What Can I Do?</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8    ">
+        <h2 className="py-4">
+          {t.sections.skills.subtitle1}
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8    ">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
