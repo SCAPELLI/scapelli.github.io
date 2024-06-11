@@ -1,6 +1,7 @@
 export default {
     title: "Titulo en español",
     language: "Español",
+    letsConnect: "Contacta conmigo",
     sections: {
         home: {
             title: "Inicio",
@@ -17,17 +18,17 @@ export default {
             title: "Acerca de mi",
             subtitle: "Quién soy",
             description: 
-                `<red><b>Mi formacion profesional</b></red>
-                Soy un desarrollador <red>próximo a recibirme de Ingenierio en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que a lo largo de mi carrera he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programacion Orientada a Objetos, Arquitectura de Software, Principios de Diseño, Buenas prácticas, Sistemas distribuidos y Programacion concurrente, Bases de datos, fundamentos de machine learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y metodologías ágiles. TDD.
+                `<red><b>Mi formación profesional</b></red>
+                Soy un desarrollador <red>próximo a recibirme de Ingeniero en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que, a lo largo de mi carrera, he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programación Orientada a Objetos, Arquitectura de Software, Principios de Diseño, Buenas prácticas, Sistemas distribuidos y Programación concurrente, Bases de Datos, fundamentos de Machine Learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y Metodologías Ágiles, Test Driven Development.
 
                 <red><b>Mi trayectoria laboral</b></red>
-                Comenzé a trabajar en el 2017 en Zoo Logic S.A, una empresa que brinda soluciones tecnológicas la gestion de puntos de venta y facturación. Mi rol consistió en brindar soporte técnico a los clientes sobre los productos de la empresa.  Durante 2017 y 2024 lleve mi carrera y mi trabajo en paralelo.
+                Comencé a trabajar en el 2017 en Zoo Logic S.A, una empresa que brinda soluciones tecnológicas para la gestión de puntos de venta y facturación. Mi rol consistió en brindar soporte técnico a los clientes sobre los productos de la empresa. Trabajé simultáneamente durante toda mi carrera desde 2017 hasta 2023.
 
-                En el 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>. Actualmente, mi trabajo consiste en desarrollar e integrar bibliotecas .NET desarrolladas en C# para ser consumidas por los productos de Zoo Logic S.A. estás bibliotecas permiten la integración de los productos de Zoo Logic con otros sistemas de terceros, como medios de pago, APIs de terceros, bibliotecas de windows, etc. Utilizo tecnologías como .NET, SQL Server, Postman, Azure, principalmente. Tambien considero muy importante la comunicación con mis compañeros y el trabajo en equipo.
+                En el 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>. Actualmente, mi trabajo consiste en desarrollar e integrar bibliotecas .NET desarrolladas en C# para ser consumidas por los productos de Zoo Logic S.A. Estas bibliotecas permiten la integración de los productos de Zoo Logic con otros sistemas de terceros, como medios de pago, APIs y bibliotecas de Windows. Utilizo tecnologías como .NET, SQL Server, Postman, Azure, principalmente. También considero muy importante la comunicación con mis compañeros y el trabajo en equipo.
 
-                <red><b>¿Que clase de persona soy?</b></red>
-                Si llegaste a leer hasta acá, verás que soy una persona que le gusta aprender y mejorar continuamente. <red>Este es mi oficio y quiero seguir creciendo en él</red>.
-                Algunos de mis hobbies son: Patinar, coleccionar comics, salir a correr e ir a festivales de cine.`
+                <red><b>¿Qué clase de persona soy?</b></red>
+                Si llegaste a leer hasta aquí, notarás que soy una persona que le gusta aprender y mejorar continuamente. <red>Este es mi oficio y quiero seguir creciendo en él</red>.
+                Algunos de mis hobbies son: patinar, coleccionar comics, salir a correr e ir a festivales de cine.`
         },
         skills: {
             title: "Habilidades",

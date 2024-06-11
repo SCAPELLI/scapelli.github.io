@@ -1,6 +1,7 @@
 export default {
     title: "title in english",
     language: "English",
+    letsConnect: "Let's connect",
     sections: {
         home: {
             title: "Inicio",

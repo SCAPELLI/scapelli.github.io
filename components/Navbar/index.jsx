@@ -49,6 +49,8 @@ function index() {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : es;
+  const pathCV = locale === "es" ? "/cv-CAPELLI.pdf" : "/cv-en-CAPELLI.pdf"
+
   const scale = 16
   return (
     <div
@@ -172,34 +174,41 @@ function index() {
               </ul>
               <div className="pt-10">
                 <p className="uppercase tracking-widest text-[#D72323]">
-                  Let's connect
+                  {t.letsConnect}
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                     <a
-                      href="https://www.linkedin.com/in/lucianocerullo77/"
+                      href="https://www.linkedin.com/in/scapelli"
                       target="_blank"
                     >
-                      <FaLinkedinIn />
+                      <FaLinkedinIn size={30}/>
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
                     <a
-                      href="https://github.com/LucianoCerullo77"
+                      href="https://github.com/scapelli"
                       target="_blank"
                     >
-                      <FaGithub />
+                      <FaGithub size={30}/>
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <a
-                      href="/CV-Luciano-Cerullo-2023.pdf"
+                    {/* <a
+                      href="/CV.pdf"
                       alt="resume"
                       rel="noopener noreferrer"
                       download
-                    >
-                      <BiDownload />
-                    </a>
+                    > */}
+                      {/* <BiDownload /> */}
+                      <Image 
+                        src="/cv-black.png" 
+                        alt="/" 
+                        width={30} 
+                        height={30}
+                        onClick = {() => router.replace(pathCV)}
+                      />
+                    {/* </a> */}
                   </div>
                 </div>
               </div>

@@ -14,7 +14,7 @@ export default function Home() {
   const t = locale === "en" ? en : es;
 
   return (
-    <div className="bg-gradient-to-b from-customGray via-red-800 to-black">
+    <div className="bg-gradient-to-b from-customGray via-red-900 to-black">
       <Head>
         <title>Sebastián Capelli</title>
         <meta

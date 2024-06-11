@@ -11,7 +11,7 @@ const index = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : es;
-  const pathCV = locale === "es" ? "/cv.pdf" : "/cv-en.pdf"
+  const pathCV = locale === "es" ? "/cv-CAPELLI.pdf" : "/cv-en-CAPELLI.pdf"
 
   const shortDescription = t.sections.home.shortDescription
   .replace(/<red>/g,'<span class="text-[#D72323]">')
