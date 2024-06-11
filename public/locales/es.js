@@ -8,10 +8,9 @@ export default {
             shortDescription: 
                 `Hola, soy <red>Sebastián</red> 
                 Un <red>desarrollador de software</red> y estudiante 
-                de <red>Ingeniería en Informática</red> en la Universidad de Buenos Aires (<red>UBA</red>)`,
+                de <red>Ingeniería en Informática</red>`,
             description: 
-                `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en 
-                la busqueda de oportunidades para seguir creciendo profesionalmente. 
+                `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en la busqueda de oportunidades para seguir creciendo profesionalmente. 
                 ¡Te invito a conocer más sobre mi!`
         },
         aboutMe: {
@@ -19,7 +18,7 @@ export default {
             subtitle: "Quién soy",
             description: 
                 `<red><b>Mi formacion profesional</b></red>
-                Soy un desarrollador <red>próximo a recibirme de Ingenierio en Informática</red>. Considero que a lo largo de mi carrera he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programacion Orientada a Objetos, Arquitectura de Software, Principios de Diseño, Buenas prácticas, Sistemas distribuidos y Programacion concurrente, Bases de datos, fundamentos de machine learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y metodologías ágiles. TDD.
+                Soy un desarrollador <red>próximo a recibirme de Ingenierio en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que a lo largo de mi carrera he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programacion Orientada a Objetos, Arquitectura de Software, Principios de Diseño, Buenas prácticas, Sistemas distribuidos y Programacion concurrente, Bases de datos, fundamentos de machine learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y metodologías ágiles. TDD.
 
                 <red><b>Mi trayectoria laboral</b></red>
                 Comenzé a trabajar en el 2017 en Zoo Logic S.A, una empresa que brinda soluciones tecnológicas la gestion de puntos de venta y facturación. Mi rol consistió en brindar soporte técnico a los clientes sobre los productos de la empresa.  Durante 2017 y 2024 lleve mi carrera y mi trabajo en paralelo.

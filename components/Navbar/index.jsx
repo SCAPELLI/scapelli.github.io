@@ -126,7 +126,7 @@ function index() {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <p className="text-[#d72323] text-lg ">
+                <p className="text-[#d72323] text-base ">
                   Sebastián Capelli &lt;/&gt;
                 </p>
               </Link>
@@ -204,7 +204,7 @@ function index() {
                 </div>
               </div>
 
-              <div className="absolute bottom-0 left-0 mr-4 mb-4">
+              <div className="absolute bottom-7 left-0 mr-4 mb-4">
                 <Image 
                   src="/avatar.png" 
                   alt="/" 
@@ -214,7 +214,7 @@ function index() {
                 />
               </div>
 
-              <div className="absolute bottom-0 right-0 mr-4 mb-4">
+              <div className="absolute bottom-7 right-0 mr-4 mb-4">
                 <ul className="uppercase">
                   <Link href="/" locale={locale === "en" ? "es" : "en"}>
                     <li className="py-4 text-sm">

@@ -11,7 +11,7 @@ const index = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : es;
-  const linkCV = locale === "es" ? "https://scapelli.ar/cv.pdf" : "https://scapelli.ar/cv-en.pdf"
+  const pathCV = locale === "es" ? "/cv.pdf" : "/cv-en.pdf"
 
   const shortDescription = t.sections.home.shortDescription
   .replace(/<red>/g,'<span class="text-[#D72323]">')
@@ -28,7 +28,6 @@ const index = () => {
           <p className="uppercase text-sm tracking-widest text-gray-500">
             {t.sections.home.descriptionHeader}
           </p>
-          
           <h2 className="py-4 text-gray-200" dangerouslySetInnerHTML={{ __html: shortDescription }}/>
           
           <p className="py-4 text-gray-500 max-w-[70%] m-auto" dangerouslySetInnerHTML={{ __html: description }}/>
@@ -49,20 +48,21 @@ const index = () => {
             </div>
 
             <div className="rounded-full width-30 height-30 shadow-custom-large shadow-gray-400 p-4 cursor-pointer hover:scale-120 ease-in duration-200">
-              <a
+              {/* <a
                 href={linkCV}
                 alt="resume"
                 rel="noopener noreferrer"
                 download
-              >
+              > */}
                 
                 <Image 
                     src="/cv.png" 
                     alt="/" 
                     width={50} 
                     height={50}
+                    onClick = {() => router.replace(pathCV)}
                   />
-              </a>
+              {/* </a> */}
               {/* <div className="absolute bottom--1 right-0 rounded-full border p-1">
                 <BiDownload size={20} />
               </div> */}
