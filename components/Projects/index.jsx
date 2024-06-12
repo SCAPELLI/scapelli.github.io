@@ -24,17 +24,14 @@ const index = () => {
         </p>
         <h2 className="py-4">What I've Built</h2>
         <div className="flex flex-wrap justify-center gap-8">   
-
-        
           <ProjectItem
             title="Wolfenstein 3D"
-            backgroundImg={Wolfenstein}
-            technologies="HTML - CSS - JS"
-            skills={["HTML", "CSS", "JS"]}
-            projectURL="/Countdown"
+            thumbnail={Wolfenstein}
+            projectURL="/Wolfenstein"
+            skills={["cpp", "lua"]}
           />
           
-          <ProjectItem
+          {/* <ProjectItem
             title="LoloStore"
             backgroundImg={Lolo}
             technologies="HTML - CSS"
@@ -111,7 +108,7 @@ const index = () => {
             backgroundImg={CountryApp}
             technologies="Angular - TypeScript - Bootstrap"
             projectURL="/CountryApp"
-          />
+          /> */}
         </div>
       </div>
     </div>
