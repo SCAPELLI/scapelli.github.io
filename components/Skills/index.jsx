@@ -3,6 +3,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import en from "../../public/locales/en";
 import es from "../../public/locales/es";
+import skillsEntry from "./skillEntry";
 
 const index = () => {
   const router = useRouter();
@@ -10,7 +11,7 @@ const index = () => {
   const t = locale === "en" ? en : es;
 
   return (
-    <div id="skills" className="w-full lg:h-screen pt-2">
+    <div id="skills" className="w-full lg:h-full pt-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#ab1c1c]">
           {t.sections.skills.title}
@@ -18,187 +19,45 @@ const index = () => {
         <h2 className="py-4">
           {t.sections.skills.subtitle1}
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8    ">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/html.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/css.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/javascript.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>JavaScript</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/react.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>ReactJs</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/node.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>NodeJs</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/mongo.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>MongoDB</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/firebase.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/nextjs.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>NextJs</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/bootstrap.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Bootstrap</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/tailwind.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>TailWind</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/git.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Git</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/github1.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>GitHub</h3>
-              </div>
-            </div>
-          </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
+          {skillsEntry({ logo: "/skills/csharp.png", label: "C#" })}
+          {skillsEntry({ logo: "/skills/foxpro.png", label: "Visual Fox Pro" })}
+          {skillsEntry({ logo: "/skills/python.png", label: "Python" })}
+          {skillsEntry({ logo: "/skills/html.png", label: "HTML" })}
+          {skillsEntry({ logo: "/skills/javascript.png", label: "JavaScript" })}
+          {skillsEntry({ logo: "/skills/typescript.png", label: "TypeScript" })}
+          {skillsEntry({ logo: "/skills/react.png", label: "React" })}
+          {skillsEntry({ logo: "/skills/reactnative.png", label: "React Native" })}
+          {skillsEntry({ logo: "/skills/sql.png", label: "SQL" })}
+        </div>
+        <h2 className="py-4">
+          {t.sections.skills.subtitle2}
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
+          {skillsEntry({ logo: "/skills/git.png", label: "Git" })}
+          {skillsEntry({ logo: "/skills/github.png", label: "GitHub" })}
+          {skillsEntry({ logo: "/skills/postman.png", label: "Postman" })}
+          {skillsEntry({ logo: "/skills/dotnet.png", label: ".NET" })}
+          {skillsEntry({ logo: "/skills/swagger.png", label: "Swagger" })}
+          {skillsEntry({ logo: "/skills/linux.png", label: "Linux" })}
+          {skillsEntry({ logo: "/skills/uml.png", label: "UML" })}
+          {skillsEntry({ logo: "/skills/gimp.png", label: "Gimp" })}
+          {skillsEntry({ logo: "/skills/figma.png", label: "Figma" })}
+        </div>
+        <h2 className="py-4">
+          Experiencia ocasional
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
+          {skillsEntry({ logo: "/skills/c.png", label: "C" })}
+          {skillsEntry({ logo: "/skills/cpp.png", label: "C++" })}
+          {skillsEntry({ logo: "/skills/nodejs.png", label: "NodeJs" })}
+          {skillsEntry({ logo: "/skills/nextJs.png", label: "NextJs" })}
+          {skillsEntry({ logo: "/skills/java.png", label: "Java" })}
+          {skillsEntry({ logo: "/skills/clojure.png", label: "Clojure" })}
+          {skillsEntry({ logo: "/skills/solidity.png", label: "Solidity" })}
+          {skillsEntry({ logo: "/skills/ruby.png", label: "Ruby on Rails" })}
+          {skillsEntry({ logo: "/skills/rust.png", label: "Rust" })}
+          {skillsEntry({ logo: "/skills/smalltalk.png", label: "Pharo SmallTalk" })}
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import Main from "../components/Main";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Certificates from "../components/Certificates";
 import Contact from "../components/Contact";
 import { useRouter } from "next/router";
 import en from "../public/locales/en";
@@ -27,6 +28,7 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Projects />
+      <Certificates />
       <Contact />
     </div>
   );
