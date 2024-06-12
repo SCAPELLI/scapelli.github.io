@@ -1,5 +1,5 @@
 import CabinnInn from "../../public/CabinnInn.png";
-import Countdown from "../../public/countdown.png";
+import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
 import CountryApp from "../../public/Countryapp.png";
 import DadJokes from "../../public/dadjokes.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
@@ -23,13 +23,17 @@ const index = () => {
           Projects
         </p>
         <h2 className="py-4">What I've Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">   
+
+        
           <ProjectItem
-            title="New Year Countdown"
-            backgroundImg={Countdown}
+            title="Wolfenstein 3D"
+            backgroundImg={Wolfenstein}
             technologies="HTML - CSS - JS"
+            skills={["HTML", "CSS", "JS"]}
             projectURL="/Countdown"
           />
+          
           <ProjectItem
             title="LoloStore"
             backgroundImg={Lolo}
