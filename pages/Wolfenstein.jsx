@@ -50,7 +50,7 @@ const renderScreenshots = () => {
       <div className="grid grid-cols-2 gap-4 ">
       <div className="col-span-2 flex justify-between">
         <Image className="w-1/2 pr-2" src={"../public/projects/wolfenstein-screenshot2.PNG"} alt="/" />
-        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot1.PNG"} alt="/" />
+        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshotA.png"} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center">
         <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot5.PNG"} alt="/" />
