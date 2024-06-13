@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import Wolfenstein from "../public/projects/wolfestein-thumbnail.png";
+import screenshot1 from "../public/projects/wolfenstein-screenshot1.png";
+import screenshot2 from "../public/projects/wolfenstein-screenshot2.png";
+import screenshot3 from "../public/projects/wolfenstein-screenshot3.png";
+import screenshot4 from "../public/projects/wolfenstein-screenshot4.png";
+import screenshot5 from "../public/projects/wolfenstein-screenshot5.png";
 
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
@@ -41,19 +46,19 @@ const renderScreenshots = () => {
   return (
     <div >
       <div className="col-span-2 flex justify-center pb-3">
-        <Image className="" src={"../public/projects/wolfenstein-screenshot4.PNG"} alt="/" />
+        <Image className="" src={screenshot4} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center pb-3">
-        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot3.PNG"} alt="/" />
+        <Image className="w-1/2" src={screenshot3} alt="/" />
       </div>
 
       <div className="grid grid-cols-2 gap-4 ">
       <div className="col-span-2 flex justify-between">
-        <Image className="w-1/2 pr-2" src={"../public/projects/wolfenstein-screenshot2.PNG"} alt="/" />
-        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshotA.png"} alt="/" />
+        <Image className="w-1/2 pr-2" src={screenshot2} alt="/" />
+        <Image className="w-1/2" src={screenshot1} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center">
-        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot5.PNG"} alt="/" />
+        <Image className="w-1/2" src={screenshot5} alt="/" />
       </div>
     </div>
     </div>
