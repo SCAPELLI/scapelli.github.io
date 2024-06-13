@@ -1,9 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import Wolfenstein from "../public/projects/wolfestein-thumbnail.png";
-import screenshot3 from "../public/projects/wolfenstein-screenshot3.PNG";
-import screenshot4 from "../public/projects/wolfenstein-screenshot4.PNG";
-import screenshot5 from "../public/projects/wolfenstein-screenshot5.PNG";
 
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
@@ -44,10 +41,10 @@ const renderScreenshots = () => {
   return (
     <div >
       <div className="col-span-2 flex justify-center pb-3">
-        <Image className="" src={screenshot4} alt="/" />
+        <Image className="" src={"../public/projects/wolfenstein-screenshot4.PNG"} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center pb-3">
-        <Image className="w-1/2" src={screenshot3} alt="/" />
+        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot3.PNG"} alt="/" />
       </div>
 
       <div className="grid grid-cols-2 gap-4 ">
@@ -56,7 +53,7 @@ const renderScreenshots = () => {
         <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot1.PNG"} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center">
-        <Image className="w-1/2" src={screenshot5} alt="/" />
+        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot5.PNG"} alt="/" />
       </div>
     </div>
     </div>
