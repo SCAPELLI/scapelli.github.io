@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import Wolfenstein from "../public/projects/wolfestein-thumbnail.png";
-import screenshot1 from "../public/projects/wolfenstein-screenshot1.PNG";
-import screenshot2 from "../public/projects/wolfenstein-screenshot2.PNG";
 import screenshot3 from "../public/projects/wolfenstein-screenshot3.PNG";
 import screenshot4 from "../public/projects/wolfenstein-screenshot4.PNG";
 import screenshot5 from "../public/projects/wolfenstein-screenshot5.PNG";
@@ -54,8 +52,8 @@ const renderScreenshots = () => {
 
       <div className="grid grid-cols-2 gap-4 ">
       <div className="col-span-2 flex justify-between">
-        <Image className="w-1/2 pr-2" src={screenshot2} alt="/" />
-        <Image className="w-1/2" src={screenshot1} alt="/" />
+        <Image className="w-1/2 pr-2" src={"../public/projects/wolfenstein-screenshot2.PNG"} alt="/" />
+        <Image className="w-1/2" src={"../public/projects/wolfenstein-screenshot1.PNG"} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center">
         <Image className="w-1/2" src={screenshot5} alt="/" />
