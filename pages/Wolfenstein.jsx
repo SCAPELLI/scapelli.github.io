@@ -3,8 +3,23 @@ import React from "react";
 import Countdown from "../public/countdown.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import YouTube from "react-youtube"; 
 
 const index = () => {
+  
+  const opts = { 
+    width: "320", 
+    playerVars: { 
+      autoplay: 0, 
+    }, 
+  }; 
+  const opts2 = { 
+    width: "500", 
+    playerVars: { 
+      autoplay: 0, 
+    }, 
+  }; 
+
   return (
     <div className="w-full">
       <div className="w-full h-[30vh] lg:h-[40vh] relative">
@@ -25,7 +40,15 @@ const index = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4 bg-green-500">
           <p>Project</p>
-          
+          <div className="md:hidden">
+            <YouTube videoId="OXZVf4MpouQ" 
+              opts={opts}  />
+          </div>
+          <div className="hidden md:block">
+            <YouTube videoId="OXZVf4MpouQ" 
+              opts={opts2}  />
+          </div>
+
           <h2>New Year Countdown</h2>
           <p className="py-2">
             This was my first project after making "LoloStore" project, I've
