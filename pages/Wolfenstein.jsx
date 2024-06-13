@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import Wolfenstein from "../public/projects/wolfestein-thumbnail.png";
-import screenshot1 from "../public/projects/wolfenstein-screenshot1.png";
-import screenshot2 from "../public/projects/wolfenstein-screenshot2.png";
-import screenshot3 from "../public/projects/wolfenstein-screenshot3.png";
-import screenshot4 from "../public/projects/wolfenstein-screenshot4.png";
-import screenshot5 from "../public/projects/wolfenstein-screenshot5.png";
+import Screenshot1 from "../public/projects/wolfenstein-screenshot-1.png";
+import Screenshot2 from "../public/projects/wolfenstein-screenshot-2.png";
+import Screenshot3 from "../public/projects/wolfenstein-screenshot-3.png";
+import Screenshot4 from "../public/projects/wolfenstein-screenshot-4.png";
+import Screenshot5 from "../public/projects/wolfenstein-screenshot-5.png";
 
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
@@ -46,19 +46,19 @@ const renderScreenshots = () => {
   return (
     <div >
       <div className="col-span-2 flex justify-center pb-3">
-        <Image className="" src={screenshot4} alt="/" />
+        <Image className="" src={Screenshot4} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center pb-3">
-        <Image className="w-1/2" src={screenshot3} alt="/" />
+        <Image className="w-1/2" src={Screenshot3} alt="/" />
       </div>
 
       <div className="grid grid-cols-2 gap-4 ">
       <div className="col-span-2 flex justify-between">
-        <Image className="w-1/2 pr-2" src={screenshot2} alt="/" />
-        <Image className="w-1/2" src={screenshot1} alt="/" />
+        <Image className="w-1/2 pr-2" src={Screenshot2} alt="/" />
+        <Image className="w-1/2" src={Screenshot1} alt="/" />
       </div>
       <div className="col-span-2 flex justify-center">
-        <Image className="w-1/2" src={screenshot5} alt="/" />
+        <Image className="w-1/2" src={Screenshot5} alt="/" />
       </div>
     </div>
     </div>
