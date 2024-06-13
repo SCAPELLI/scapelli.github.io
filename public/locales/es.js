@@ -6,18 +6,18 @@ export default {
         home: {
             title: "Inicio",
             descriptionHeader: "Bienvenido a mi sitio web",
-            shortDescription: 
+            shortDescription:
                 `Hola, soy <red>Sebastián</red> 
                 Un <red>desarrollador de software</red> y estudiante 
                 de <red>Ingeniería en Informática</red>`,
-            description: 
+            description:
                 `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en la busqueda de oportunidades para seguir creciendo profesionalmente. 
                 ¡Te invito a conocer más sobre mi!`
         },
         aboutMe: {
             title: "Acerca de mi",
             subtitle: "Quién soy",
-            description: 
+            description:
                 `<red><b>Mi formación profesional</b></red>
                 Soy un desarrollador <red>próximo a recibirme de Ingeniero en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que, a lo largo de mi carrera, he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programación Orientada a Objetos, Arquitectura de Software, Principios de Diseño, Buenas prácticas, Sistemas distribuidos y Programación concurrente, Bases de Datos, fundamentos de Machine Learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y Metodologías Ágiles, Test Driven Development.
 
@@ -33,12 +33,41 @@ export default {
         skills: {
             title: "Habilidades",
             subtitle1: "Lenguajes y Frameworks",
-            
+
             subtitle2: "Más herramientas",
         },
         projects: {
             title: "Proyectos",
-            description: "Aquí hay algunos de los proyectos en los que he estado trabajando recientemente:"
+            singularTitle: "Proyecto",
+            description: "Aquí hay algunos de los proyectos en los que he estado trabajando recientemente:",
+            repository: "Repositorio",
+            back: "Volver",
+            screenshots: "Capturas",
+            technologies: "TECNOLOGÍAS",
+            wolfenstein: {
+                description: 
+                `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 
+                El proyecto consistió en desarrollar una <red>versión multijugador del juego Wolfenstein 3D</red>.
+                Se desarrolló tanto el cliente como el servidor, utilizando principalmente C++.
+
+                El <red>servidor multithreading</red> se encarga de escuchar las conexiones TCP y gestiona los hilos de ejecución para manejar las salas de juego y la comunicación entre los clientes.            
+                El <red>cliente</red> se encarga de la interfaz gráfica y la comunicación con el servidor.
+                
+                Para la <red>lógica del BOT</red> se utilizó Lua para implementar el algoritmo de Dijkstra de caminos mínimos.
+                También se desarrolló un <red>editor de mapas para diseñar los niveles del juego</red> en Qt.
+                
+                Algunos conceptos involucrados: 
+                - Hilos
+                - Sockets
+                - Conexiones TCP
+                - Grafos
+                - Caminos mínimos
+                - Mutex
+                - Event loop
+                - Paradigma de objetos
+                - Bibliotecas SDL
+                `
+            }
         },
         contact: {
             title: "Contacto",
