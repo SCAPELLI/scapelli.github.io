@@ -19,7 +19,6 @@ const renderSkills = (skills) => {
 const index = ({ title, thumbnail, projectURL, skills}) => {
   return (
     <Link href={projectURL} >
-      {/* <div className="relative p-2 space-x-8 bg-green-500 shadow-custom-large shadow-gray-400  justify-center  shadow rounded-xl group hover:scale-105 ease-in duration-200"> */}
       <div className="relative p-2 space-x-8 flex flex-col md:flex-row items-center justify-center md:flex shadow-custom-large shadow-gray-400  justify-center  shadow rounded-xl group hover:scale-105 ease-in duration-200">
       <Image
           className="rounded-xl w-full md:w-auto"

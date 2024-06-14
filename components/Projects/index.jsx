@@ -35,7 +35,7 @@ const index = () => {
           <ProjectItem
             title="FiuFit"
             thumbnail={FiuFit}
-            projectURL="/Wolfenstein"
+            projectURL="/FiuFit"
             skills={["javascript", "react", "reactnative", "sql"]}
           />
 
