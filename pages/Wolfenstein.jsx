@@ -93,8 +93,10 @@ const index = () => {
           <h3>C++ / Lua</h3>
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8 bg-green">
-        <div className="col-span-4">
+      <div className="max-w-[1240px] mx-auto p-2 md:grid md:grid-cols-5 gap-8 pt-8">
+        
+        
+        <div className="col-span-4 pb-4">
           <p>{t.sections.projects.singularTitle}</p>
           <h2>Wolfenstein</h2>
           <p className="py-2" dangerouslySetInnerHTML={{ __html: description }}>
@@ -107,7 +109,10 @@ const index = () => {
           {renderScreenshots()}
 
         </div>
-        <div className="justify-center">
+
+
+
+        <div className="justify-center ">
 
           <div className="col-span-4 md:col-span-1 shadow shadow-gray-600 rounded-xl p-4 ">
 
@@ -144,6 +149,10 @@ const index = () => {
           </button>
           
         </div>
+
+
+
+
         <Link href="/">
           <p className="underline cursor-pointer hidden md:block">{t.sections.projects.back}</p>
         </Link>

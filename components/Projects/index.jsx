@@ -1,5 +1,6 @@
 import CabinnInn from "../../public/CabinnInn.png";
 import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
+import FiuFit from  "../../public/projects/fiufit-thumbnail.png";
 import CountryApp from "../../public/Countryapp.png";
 import DadJokes from "../../public/dadjokes.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
@@ -31,6 +32,13 @@ const index = () => {
             skills={["cpp", "lua"]}
           />
           
+          <ProjectItem
+            title="FiuFit"
+            thumbnail={FiuFit}
+            projectURL="/Wolfenstein"
+            skills={["javascript", "react", "reactnative", "sql"]}
+          />
+
           {/* <ProjectItem
             title="LoloStore"
             backgroundImg={Lolo}
