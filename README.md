@@ -1,9 +1,9 @@
 
-# Luciano Cerullo Portfolio
+# Sebastian Capelli Portfolio
 
 This is my own Portfolio maded with NextJS and TailwindCSS.
 
-Here´s the link : https://portfoliov2-luciano-cerullo.vercel.app
+Here´s the link : scapelli.ar
 
 # Dependecies
 
@@ -53,10 +53,10 @@ Start the server
 
 ## Authors
 
-- [@Luciano Cerullo](https://www.linkedin.com/in/lucianocerullo77/)
+- [@Sebastián Capelli](https://www.linkedin.com/in/scapelli)
 
 
 ## Feedback
 
-If you have any feedback, please contact me at lucianonicolas10@gmail.com
+If you have any feedback, please contact me at scapelli@fi.uba.ar
 

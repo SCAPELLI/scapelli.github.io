@@ -24,7 +24,7 @@ const index = () => {
                 />
               </div>
               <div className="">
-                <h2 className="py-2">Luciano Cerullo</h2>
+                <h2 className="py-2">Sebastián Capelli</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I'm available for freelance or full-time positions. Contact me
