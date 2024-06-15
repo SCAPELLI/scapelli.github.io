@@ -41,6 +41,7 @@ export default {
             singularTitle: "Proyecto",
             description: "Aquí hay algunos de los proyectos en los que he estado trabajando recientemente:",
             repository: "Repositorio",
+            userManual: "Manual de usuario",
             back: "Volver",
             screenshots: "Capturas",
             technologies: "TECNOLOGÍAS",
@@ -67,6 +68,44 @@ export default {
                 - Paradigma de objetos
                 - Bibliotecas SDL
                 `
+            },
+            fiufit: {
+                description: 
+                `Proyecto final de la materia <red>"Taller de Programación II"</red> de la carrera de Ingeniería en Informática de la UBA. 
+                El proyecto consistió en desarrollar una <red>aplicación móvil de entrenamiento personal</red> que permita a los usuarios realizar rutinas de ejercicios personalizadas y hacer un seguimiento de sus progresos.
+
+                La aplicación fue desarrollada en <red>React Native</red> y <red>Node.js</red> para el backend. 
+                Utiliza una base de datos <red>SQL</red> para almacenar los datos de los usuarios y las rutinas de ejercicios.
+                Para almacenar los multimedia se utilizó <red>Firebase</red>.
+                Para autenticar a los usuarios se utilizaron <red>tokens JWT</red> propios o de Google para el caso del <red>login con google</red>.
+                Para la gestión del proyecto realizamos <red>SCRUM</red> con sprints de 2 semanas durante los cuatro meses de desarrollo.
+
+                Algunos conceptos involucrados:
+                - React Native
+                - Node.js
+                - SQL
+                - Tokens JWT
+                - Access Token y Refresh Token
+                - Diseño de bases de datos
+                - Arquitectura de software
+                - Microservicios
+                - Test Coverage
+                - Metodologías ágiles
+                `
+            },
+            moviebrowser: {
+                description:
+                `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
+                El proyecto consistió en desarrollar una <red>aplicación web de búsqueda de películas</red> que permitiera a los usuarios buscar películas por título, marcar películas favoritas y exportarlas a un archivo.
+                La aplicación consume la <red>API de The Movie Database</red> para obtener la información de las películas.
+                Además, la información de las películas favoritas de cada usuario se almacena en <red>una base de datos SQL</red> configurada desde la misma interfaz Rails.
+                El objetivo del trabajo fue investigar e interiorizarse en el <red>desarrollo de aplicaciones basadas en Ruby y en el framework Ruby on Rails</red>.
+                
+                Algunos conceptos involucrados:
+                - Ruby
+                - Ruby on Rails
+                - SQL
+                - Consumo de APIs`
             }
         },
         contact: {

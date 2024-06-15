@@ -1,6 +1,8 @@
 import CabinnInn from "../../public/CabinnInn.png";
 import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
-import FiuFit from  "../../public/projects/fiufit-thumbnail.png";
+import FiuFit from "../../public/projects/fiufit-thumbnail.png";
+import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
+import TCP from "../../public/projects/tcp-thumbnail.png";
 import CountryApp from "../../public/Countryapp.png";
 import DadJokes from "../../public/dadjokes.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
@@ -24,14 +26,14 @@ const index = () => {
           Projects
         </p>
         <h2 className="py-4">What I've Built</h2>
-        <div className="flex flex-wrap justify-center gap-8">   
+        <div className="flex flex-wrap justify-center gap-8">
           <ProjectItem
             title="Wolfenstein 3D"
             thumbnail={Wolfenstein}
             projectURL="/Wolfenstein"
             skills={["cpp", "lua"]}
           />
-          
+
           <ProjectItem
             title="FiuFit"
             thumbnail={FiuFit}
@@ -39,84 +41,19 @@ const index = () => {
             skills={["javascript", "react", "reactnative", "sql"]}
           />
 
-          {/* <ProjectItem
-            title="LoloStore"
-            backgroundImg={Lolo}
-            technologies="HTML - CSS"
-            projectURL="/Lolo"
-          />
           <ProjectItem
-            title="Dad Jokes"
-            backgroundImg={DadJokes}
-            technologies="HTML - CSS - JS"
-            projectURL="/DadJokes"
+            title="Movie Browser"
+            thumbnail={MovieBrowser}
+            projectURL="/MovieBrowser"
+            skills={["ruby", "sql"]}
           />
+
           <ProjectItem
-            title="English Dictionary"
-            backgroundImg={EnglishDictionary}
-            technologies="HTML - CSS - JS"
-            projectURL="/EnglishDictionary"
+            title="TCP Implementation"
+            thumbnail={TCP}
+            projectURL="/TCP"
+            skills={["python", "wireshark"]}
           />
-          <ProjectItem
-            title="Fennex"
-            backgroundImg={Fennex}
-            technologies="Advanced ReactJs "
-            projectURL="/Fennex"
-          />
-          <ProjectItem
-            title="React To Do app"
-            backgroundImg={ReactToDo}
-            technologies="ReactJs"
-            projectURL="/Todo"
-          />
-          <ProjectItem
-            title="Sweet Olivia"
-            backgroundImg={Olivia}
-            technologies="ReactJs"
-            projectURL="/Sweet-Olivia"
-          />
-          <ProjectItem
-            title="CabinnInn"
-            backgroundImg={CabinnInn}
-            technologies="ReactJs"
-            projectURL="/CabinnInn"
-          />
-          <ProjectItem
-            title="Weather App - 2023"
-            backgroundImg={WeatherApp}
-            technologies="NextJs - TailWindCSS"
-            projectURL="/WeatherApp"
-          />
-          <ProjectItem
-            title="Youtube Clone"
-            backgroundImg={YoutubeClone}
-            technologies="ReactJs - Material UI"
-            projectURL="/YoutubeClone"
-          />
-          <ProjectItem
-            title="Pro-Grama"
-            backgroundImg={Programa}
-            technologies="ReactJs - Vite - TailWindCSS"
-            projectURL="/Pro-grama"
-          />
-          <ProjectItem
-            title="Home-Hero"
-            backgroundImg={HomeHero}
-            technologies="ReactJs - TypeScript - Vite - TailWindCSS - Redux"
-            projectURL="/Home-Hero"
-          />
-          <ProjectItem
-            title="Gifs-App"
-            backgroundImg={GifsApp}
-            technologies="Angular - TypeScript - Bootstrap"
-            projectURL="/GifsApp"
-          />
-          <ProjectItem
-            title="Country-app"
-            backgroundImg={CountryApp}
-            technologies="Angular - TypeScript - Bootstrap"
-            projectURL="/CountryApp"
-          /> */}
         </div>
       </div>
     </div>

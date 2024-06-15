@@ -51,13 +51,14 @@ const index = () => {
           {skillsEntry({ logo: "/skills/c.png", label: "C" })}
           {skillsEntry({ logo: "/skills/cpp.png", label: "C++" })}
           {skillsEntry({ logo: "/skills/nodejs.png", label: "NodeJs" })}
-          {skillsEntry({ logo: "/skills/nextJs.png", label: "NextJs" })}
+          {skillsEntry({ logo: "/skills/nextjs2.png", label: "NextJs" })}
           {skillsEntry({ logo: "/skills/java.png", label: "Java" })}
           {skillsEntry({ logo: "/skills/clojure.png", label: "Clojure" })}
           {skillsEntry({ logo: "/skills/solidity.png", label: "Solidity" })}
           {skillsEntry({ logo: "/skills/ruby.png", label: "Ruby on Rails" })}
           {skillsEntry({ logo: "/skills/rust.png", label: "Rust" })}
           {skillsEntry({ logo: "/skills/smalltalk.png", label: "Pharo SmallTalk" })}
+          {skillsEntry({ logo: "/skills/wireshark.png", label: "Wireshark" })}
         </div>
       </div>
     </div>

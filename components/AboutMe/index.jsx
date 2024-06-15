@@ -36,7 +36,7 @@ const index = () => {
             alt="image"
           /> */}
           <Image 
-            src="/foto.png" 
+            src="/foto-circular.png" 
             alt="/" 
             width={400} 
             height={200}
