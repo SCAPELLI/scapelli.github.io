@@ -3,6 +3,7 @@ import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
 import FiuFit from "../../public/projects/fiufit-thumbnail.png";
 import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
 import TCP from "../../public/projects/tcp-thumbnail1.png";
+import HomeSquad from "../../public/projects/homesquad-thumbnail2.png";
 import CountryApp from "../../public/Countryapp.png";
 import DadJokes from "../../public/dadjokes.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
@@ -60,6 +61,13 @@ const index = () => {
             thumbnail={TCP}
             projectURL="/TCP"
             skills={["python", "wireshark"]}
+          />
+
+          <ProjectItem
+            title="HomeSquad"
+            thumbnail={HomeSquad}
+            projectURL="/HomeSquad"
+            skills={["typescript", "reactnative"]}
           />
         </div>
       </div>

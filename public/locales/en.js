@@ -38,6 +38,7 @@ export default {
         },
         projects: {
             title: "Proyectos",
+            subtitle: "Mis trabajos",
             singularTitle: "Proyecto",
             description: "Aquí hay algunos de los proyectos en los que he estado trabajando recientemente:",
             repository: "Repositorio",
