@@ -2,7 +2,7 @@ import CabinnInn from "../../public/CabinnInn.png";
 import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
 import FiuFit from "../../public/projects/fiufit-thumbnail.png";
 import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
-import TCP from "../../public/projects/tcp-thumbnail.png";
+import TCP from "../../public/projects/tcp-thumbnail1.png";
 import CountryApp from "../../public/Countryapp.png";
 import DadJokes from "../../public/dadjokes.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
