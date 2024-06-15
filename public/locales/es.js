@@ -45,6 +45,7 @@ export default {
             back: "Volver",
             screenshots: "Capturas",
             technologies: "TECNOLOGÍAS",
+            report: "Informe",
             wolfenstein: {
                 description: 
                 `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 
@@ -106,8 +107,26 @@ export default {
                 - Ruby on Rails
                 - SQL
                 - Consumo de APIs`
-            }
-        },
+            },
+            tcp: {
+                title: "UDP based File Transfer Protocol",
+                description:
+                `Proyecto de la materia <red>"Introducción a los Sistemas Distribuidos"</red> de la carrera de Ingeniería en Informática de la UBA.
+                En este proyecto, se creó una <red>aplicación que permite subir y descargar archivos</red> utilizando la interfaz de sockets y el protocolo de transporte UDP. 
+                El principal desafío fue construir un <red>protocolo de transferencia confiable basado en UDP</red>, donde pueden surgir diversos problemas de comunicación como: pérdida o duplicación de paquetes, retrasos en la entrega y consiguiente arribo fuera de orden.
+                Este tipo de problemáticas son resueltas con el protocolo TCP, por lo tanto, el desafío fue implementar un protocolo similar a TCP pero basado en UDP.
+
+                Algunos conceptos involucrados:
+                - Sockets
+                - Protocolo UDP
+                - Protocolo TCP
+                - Protocolo IP
+                - Checksum
+                - Ventanas deslizantes
+                - Python
+                - Sniffer (Analizador de paquetes)`
+                },
+            },
         contact: {
             title: "Contacto",
             description: "¿Quieres trabajar conmigo? Completa el formulario a continuación para enviarme un mensaje y me pondré en contacto contigo lo antes posible."

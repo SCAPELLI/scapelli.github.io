@@ -17,15 +17,22 @@ import React from "react";
 import ReactToDo from "../../public/reacttodo.png";
 import WeatherApp from "../../public/weatherapp.png";
 import YoutubeClone from "../../public/Youtube-clone.png";
+import { useRouter } from "next/router";
+import en from "../../public/locales/en";
+import es from "../../public/locales/es";
 
 const index = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : es;
+
   return (
     <div id="projects" className="w-full pt-4">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#ab1c1c]">
-          Projects
+          {t.sections.projects.title}
         </p>
-        <h2 className="py-4">What I've Built</h2>
+        <h2 className="py-4">{t.sections.projects.subtitle}</h2>
         <div className="flex flex-wrap justify-center gap-8">
           <ProjectItem
             title="Wolfenstein 3D"
@@ -49,7 +56,7 @@ const index = () => {
           />
 
           <ProjectItem
-            title="TCP Implementation"
+            title="UDP based File Transfer Protocol"
             thumbnail={TCP}
             projectURL="/TCP"
             skills={["python", "wireshark"]}
