@@ -48,8 +48,8 @@ export default {
             technologies: "TECNOLOGÍAS",
             report: "Informe",
             wolfenstein: {
-                description: 
-                `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 
+                description:
+                    `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 
                 El proyecto consistió en desarrollar una <red>versión multijugador del juego Wolfenstein 3D</red>.
                 Se desarrolló tanto el cliente como el servidor, utilizando principalmente C++.
 
@@ -72,8 +72,8 @@ export default {
                 `
             },
             fiufit: {
-                description: 
-                `Proyecto final de la materia <red>"Taller de Programación II"</red> de la carrera de Ingeniería en Informática de la UBA. 
+                description:
+                    `Proyecto final de la materia <red>"Taller de Programación II"</red> de la carrera de Ingeniería en Informática de la UBA. 
                 El proyecto consistió en desarrollar una <red>aplicación móvil de entrenamiento personal</red> que permita a los usuarios realizar rutinas de ejercicios personalizadas y hacer un seguimiento de sus progresos.
 
                 La aplicación fue desarrollada en <red>React Native</red> y <red>Node.js</red> para el backend. 
@@ -97,7 +97,7 @@ export default {
             },
             moviebrowser: {
                 description:
-                `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
+                    `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
                 El proyecto consistió en desarrollar una <red>aplicación web de búsqueda de películas</red> que permitiera a los usuarios buscar películas por título, marcar películas favoritas y exportarlas a un archivo.
                 La aplicación consume la <red>API de The Movie Database</red> para obtener la información de las películas.
                 Además, la información de las películas favoritas de cada usuario se almacena en <red>una base de datos SQL</red> configurada desde la misma interfaz Rails.
@@ -112,7 +112,7 @@ export default {
             tcp: {
                 title: "UDP based File Transfer Protocol",
                 description:
-                `Proyecto de la materia <red>"Introducción a los Sistemas Distribuidos"</red> de la carrera de Ingeniería en Informática de la UBA.
+                    `Proyecto de la materia <red>"Introducción a los Sistemas Distribuidos"</red> de la carrera de Ingeniería en Informática de la UBA.
                 En este proyecto, se creó una <red>aplicación que permite subir y descargar archivos</red> utilizando la interfaz de sockets y el protocolo de transporte UDP. 
                 El principal desafío fue construir un <red>protocolo de transferencia confiable basado en UDP</red>, donde pueden surgir diversos problemas de comunicación como: pérdida o duplicación de paquetes, retrasos en la entrega y consiguiente arribo fuera de orden.
                 Este tipo de problemáticas son resueltas con el protocolo TCP, por lo tanto, el desafío fue implementar un protocolo similar a TCP pero basado en UDP.
@@ -126,8 +126,23 @@ export default {
                 - Ventanas deslizantes
                 - Python
                 - Sniffer (Analizador de paquetes)`
-                },
             },
+
+            homesquad: {
+                description:
+                `Proyecto final de la materia <red>"Taller de Desarrollo de Proyectos I"</red> de la carrera de Ingeniería en Informática de la UBA.
+                El proyecto consistió en desarrollar una <red>aplicación móvil de búsqueda de profesionales para el hogar</red>.
+                El cliente puede buscar profesionales para realizar trabajos en su hogar, como plomeros, electricistas, pintores, y el profesional puede registrarse en la aplicación y ofrecer sus servicios.
+                
+                El proyecto estuvo enfocado en aspectos de ventas y marketing, por lo que se realizaron investigaciones de mercado, análisis de la competencia, y desarrollo de un plan de marketing.
+                En la presentación final, se mostró el <red>prototipo de la aplicación</red> y se presentó el plan de inserción en el mercado junto con la proyección de ventas.
+
+                Algunos conceptos involucrados:
+                - Las 5 P del marketing
+                - Las 4 C del marketing
+                - TypeScript`
+            },
+        },
         contact: {
             title: "Contacto",
             description: "¿Quieres trabajar conmigo? Completa el formulario a continuación para enviarme un mensaje y me pondré en contacto contigo lo antes posible."
