@@ -50,8 +50,8 @@ const index = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
           {skillsEntry({ logo: "/skills/c.png", label: "C" })}
           {skillsEntry({ logo: "/skills/cpp.png", label: "C++" })}
-          {skillsEntry({ logo: "/skills/nodejs.png", label: "NodeJs" })}
-          {skillsEntry({ logo: "/skills/nextjs2.png", label: "NextJs" })}
+          {skillsEntry({ logo: "/skills/nodejs.png", label: "Node.js" })}
+          {skillsEntry({ logo: "/skills/nextjs2.png", label: "Next.js" })}
           {skillsEntry({ logo: "/skills/java.png", label: "Java" })}
           {skillsEntry({ logo: "/skills/clojure.png", label: "Clojure" })}
           {skillsEntry({ logo: "/skills/solidity.png", label: "Solidity" })}

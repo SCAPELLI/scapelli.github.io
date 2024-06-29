@@ -95,6 +95,12 @@ export default {
                 - Metodologías ágiles
                 `
             },
+            streamclub: {
+                description:
+                `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
+                El proyecto consistió en desarrollar una <red>aplicación web de búsqueda de películas</red> que permitiera a los usuarios buscar películas por título, marcar películas favoritas y exportarlas a un archivo.
+                La a`
+            },
             moviebrowser: {
                 description:
                     `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.

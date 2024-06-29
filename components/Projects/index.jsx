@@ -4,6 +4,7 @@ import FiuFit from "../../public/projects/fiufit-thumbnail.png";
 import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
 import TCP from "../../public/projects/tcp-thumbnail1.png";
 import HomeSquad from "../../public/projects/homesquad-thumbnail2.png";
+import StreamClub from "../../public/projects/streamclub-thumbnail.png";
 import CountryApp from "../../public/Countryapp.png";
 import DadJokes from "../../public/dadjokes.png";
 import EnglishDictionary from "../../public/englishdictionary.png";
@@ -35,6 +36,7 @@ const index = () => {
         </p>
         <h2 className="py-4">{t.sections.projects.subtitle}</h2>
         <div className="flex flex-wrap justify-center gap-8">
+          
           <ProjectItem
             title="Wolfenstein 3D"
             thumbnail={Wolfenstein}
@@ -47,6 +49,13 @@ const index = () => {
             thumbnail={FiuFit}
             projectURL="/FiuFit"
             skills={["javascript", "react", "reactnative", "sql"]}
+          />
+
+          <ProjectItem
+            title="Stream Club (WIP)"
+            thumbnail={StreamClub}
+            projectURL="/StreamClub"
+            skills={["typescript", "reactnative", "sql", "nodejs"]}
           />
 
           <ProjectItem
