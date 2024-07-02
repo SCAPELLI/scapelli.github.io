@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaInstagram, FaFacebookF, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaFacebookF, FaGithub, FaTelegramPlane } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
@@ -77,7 +77,6 @@ const renderIcons = () => {
           height={20}
         />
       </div>
-
       <div
         className="rounded-full shadow-custom-large shadow-gray-400 p-4 cursor-pointer hover:scale-120 ease-in duration-200 inline-block m-4"
         onClick={() => window.open("https://www.facebook.com/profile.php?id=100010047974588&mibextid=ZbWKwL", "_blank")}
@@ -90,6 +89,12 @@ const renderIcons = () => {
         onClick={() => window.open("https://www.instagram.com/sebastian_capelli?igsh=MXdhbXZlcHlmdWY3cw==", "_blank")}
       >
         <FaInstagram size={20} />
+      </div>
+      <div
+        className="rounded-full shadow-custom-large shadow-gray-400 p-4 cursor-pointer hover:scale-120 ease-in duration-200 inline-block m-4"
+        onClick={() => window.open("https://t.me/SebastianCapelli", "_blank")}
+      >
+        <FaTelegramPlane size={20} />
       </div>
       </div>
     </div>
