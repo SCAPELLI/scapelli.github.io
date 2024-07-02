@@ -29,7 +29,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Certificates />
-      <Contact />
     </div>
   );
 }

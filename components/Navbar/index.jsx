@@ -177,38 +177,30 @@ function index() {
                   {t.letsConnect}
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <a
-                      href="https://www.linkedin.com/in/scapelli"
-                      target="_blank"
-                    >
-                      <FaLinkedinIn size={30}/>
-                    </a>
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200 inline-block m-4"
+                    onClick={() => window.open("https://www.linkedin.com/in/scapelli", "_blank")}
+                  >
+                    <FaLinkedinIn size={30} />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    <a
-                      href="https://github.com/scapelli"
-                      target="_blank"
-                    >
-                      <FaGithub size={30}/>
-                    </a>
+
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200 inline-block m-4"
+                    onClick={() => window.open("https://github.com/scapelli", "_blank")}
+                  >
+                    <FaGithub size={30} />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-                    {/* <a
-                      href="/CV.pdf"
-                      alt="resume"
-                      rel="noopener noreferrer"
-                      download
-                    > */}
-                      {/* <BiDownload /> */}
-                      <Image 
+
+                  <div
+                    className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200 inline-block m-4"
+                    onClick={() => window.open(pathCV, "_blank")}
+                  >
+                    <Image 
                         src="/cv-black.png" 
                         alt="/" 
                         width={30} 
                         height={30}
-                        onClick = {() => router.replace(pathCV)}
                       />
-                    {/* </a> */}
                   </div>
                 </div>
               </div>

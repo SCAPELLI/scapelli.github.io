@@ -1,14 +1,21 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
+import en from "../../public/locales/en";
+import es from "../../public/locales/es";
 
 const index = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : es;
+
   return (
     <div id="projects" className="w-full pt-4">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#ab1c1c]">
-          Certificados
+          {t.sections.certificates.title}
         </p>
-        <h2 className="py-4">Cursos</h2>
+        <h2 className="py-4">{t.sections.certificates.courses}</h2>
         <div className="grid md:grid-cols-2 gap-8">
 
           {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300" > */}

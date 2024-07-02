@@ -171,9 +171,12 @@ export default {
                 - TypeScript`
             },
         },
+        certificates: {
+            title: "Certificados",
+            courses: "Cursos",
+        },
         contact: {
-            title: "Contacto",
-            description: "¿Quieres trabajar conmigo? Completa el formulario a continuación para enviarme un mensaje y me pondré en contacto contigo lo antes posible."
+            title: "Contacta conmigo",
         }
     }
 }

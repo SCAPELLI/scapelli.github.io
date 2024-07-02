@@ -11,7 +11,7 @@ export default {
                 Un <red>desarrollador de software</red> y estudiante 
                 de <red>Ingeniería en Informática</red>`,
             description:
-                `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en la busqueda de oportunidades para seguir creciendo profesionalmente. 
+                `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en la búsqueda de oportunidades para seguir creciendo profesionalmente. 
                 ¡Te invito a conocer más sobre mi!`
         },
         aboutMe: {
@@ -40,6 +40,7 @@ export default {
             title: "Proyectos",
             subtitle: "Mis trabajos",
             singularTitle: "Proyecto",
+            singularTitleInProgress: "Proyecto en progreso",
             description: "Aquí hay algunos de los proyectos en los que he estado trabajando recientemente:",
             repository: "Repositorio",
             userManual: "Manual de usuario",
@@ -79,7 +80,7 @@ export default {
                 La aplicación fue desarrollada en <red>React Native</red> y <red>Node.js</red> para el backend. 
                 Utiliza una base de datos <red>SQL</red> para almacenar los datos de los usuarios y las rutinas de ejercicios.
                 Para almacenar los multimedia se utilizó <red>Firebase</red>.
-                Para autenticar a los usuarios se utilizaron <red>tokens JWT</red> propios o de Google para el caso del <red>login con google</red>.
+                Para autenticar a los usuarios se utilizaron <red>tokens JWT</red> propios o de Google para el caso del <red>login con Google</red>.
                 Para la gestión del proyecto realizamos <red>SCRUM</red> con sprints de 2 semanas durante los cuatro meses de desarrollo.
 
                 Algunos conceptos involucrados:
@@ -97,9 +98,30 @@ export default {
             },
             streamclub: {
                 description:
-                `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
-                El proyecto consistió en desarrollar una <red>aplicación web de búsqueda de películas</red> que permitiera a los usuarios buscar películas por título, marcar películas favoritas y exportarlas a un archivo.
-                La a`
+                    `<red>Proyecto final de la carrera</red> de Ingeniería en Informática de la UBA. 
+                    
+                    El proyecto consiste en una aplicación móvil para la <red>gestión de las plataformas de streaming contratadas por el usuario</red>, así como una <red>red social</red> para interactuar con otros usuarios y compartir recomendaciones de contenido.
+                El usuario podrá buscar películas y series, marcar las plataformas contratadas, ver estadísticas de uso de cada una, marcar contenido como visto o pendiente de ver y recibir recomendaciones personalizadas.
+
+                El frontend está implementado en <red>React Native</red> usando Expo. Para el backend, se utiliza una arquitectura con <red>microservicios</red> implementados en Node.js y en Python. 
+                
+                Se utilizan bases de datos <red>SQL</red> para almacenar los datos personales de los usuarios y sus recomendaciones, y una base de datos <red>MongoDB</red> para guardar el contenido visto o pendiente.
+                Para autenticar a los usuarios, se utilizan <red>tokens JWT</red> propios, o de Google para el caso del <red>login con Google</red>.
+                Para la gestión del proyecto, se realiza <red>SCRUM</red> con sprints de 2 semanas.
+
+                Para las recomendaciones, se utilizan modelos de <red>Machine Learning</red> que predicen el contenido de interés para el usuario, basado en su historial.
+
+                Algunos conceptos involucrados:
+                - React Native
+                - Node.js
+                - SQL
+                - Tokens JWT
+                - Access Token y Refresh Token
+                - Diseño de bases de datos
+                - Microservicios
+                - Metodologías ágiles
+                - Machine Learning
+                `
             },
             moviebrowser: {
                 description:
@@ -149,9 +171,12 @@ export default {
                 - TypeScript`
             },
         },
+        certificates: {
+            title: "Certificados",
+            courses: "Cursos",
+        },
         contact: {
-            title: "Contacto",
-            description: "¿Quieres trabajar conmigo? Completa el formulario a continuación para enviarme un mensaje y me pondré en contacto contigo lo antes posible."
+            title: "Contacta conmigo",
         }
     }
 }
