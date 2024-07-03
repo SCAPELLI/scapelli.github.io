@@ -1,182 +1,182 @@
 export default {
-    title: "Titulo en español",
-    language: "Español",
-    letsConnect: "Contacta conmigo",
+    title: "Title in English",
+    language: "English",
+    letsConnect: "Let's Connect",
     sections: {
         home: {
-            title: "Inicio",
-            descriptionHeader: "Bienvenido a mi sitio web",
+            title: "Home",
+            descriptionHeader: "Welcome to my website",
             shortDescription:
-                `Hola, soy <red>Sebastián</red> 
-                Un <red>desarrollador de software</red> y estudiante 
-                de <red>Ingeniería en Informática</red>`,
+                `Hi, I am <red>Sebastián</red>
+                A <red>software developer</red> and student
+                of <red>Computer Engineering</red>`,
             description:
-                `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en la búsqueda de oportunidades para seguir creciendo profesionalmente. 
-                ¡Te invito a conocer más sobre mi!`
+                `With 2024 marking the end of my university career, I am looking for opportunities to continue growing professionally.
+                I invite you to learn more about me!`
         },
         aboutMe: {
-            title: "Acerca de mi",
-            subtitle: "Quién soy",
+            title: "About Me",
+            subtitle: "Who I am",
             description:
-                `<red><b>Mi formación profesional</b></red>
-                Soy un desarrollador <red>próximo a recibirme de Ingeniero en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que, a lo largo de mi carrera, he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programación Orientada a Objetos, Arquitectura de Software, Principios de Diseño, Buenas prácticas, Sistemas distribuidos y Programación concurrente, Bases de Datos, fundamentos de Machine Learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y Metodologías Ágiles, Test Driven Development.
+                `<red><b>My Professional Background</b></red>
+                I am a developer <red>about to graduate in Computer Engineering at the University of Buenos Aires (UBA)</red>. I believe that, throughout my career, I have acquired solid foundations to perform well in the job market. To highlight a few: Object-Oriented Programming, Software Architecture, Design Principles, Best Practices, Distributed Systems and Concurrent Programming, Databases, fundamentals of Machine Learning, fundamentals of Operating Systems and Compilers, Project Management and Agile Methodologies, Test Driven Development.
 
-                <red><b>Mi trayectoria laboral</b></red>
-                Comencé a trabajar en el 2017 en Zoo Logic S.A, una empresa que brinda soluciones tecnológicas para la gestión de puntos de venta y facturación. Mi rol consistió en brindar soporte técnico a los clientes sobre los productos de la empresa. Trabajé simultáneamente durante toda mi carrera desde 2017 hasta 2023.
+                <red><b>My Career Path</b></red>
+                I started working in 2017 at Zoo Logic S.A, a company that provides technological solutions for point-of-sale management and invoicing. My role was to provide technical support to clients on the company's products. I worked simultaneously throughout my career from 2017 to 2023.
 
-                En el 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>. Actualmente, mi trabajo consiste en desarrollar e integrar bibliotecas .NET desarrolladas en C# para ser consumidas por los productos de Zoo Logic S.A. Estas bibliotecas permiten la integración de los productos de Zoo Logic con otros sistemas de terceros, como medios de pago, APIs y bibliotecas de Windows. Utilizo tecnologías como .NET, SQL Server, Postman, Azure, principalmente. También considero muy importante la comunicación con mis compañeros y el trabajo en equipo.
+                In 2024 I was transferred to the <red>Intelligence and Development</red> area. Currently, my job involves developing and integrating .NET libraries developed in C# to be consumed by Zoo Logic S.A's products. These libraries enable the integration of Zoo Logic products with other third-party systems, such as payment methods, APIs, and Windows libraries. I use technologies such as .NET, SQL Server, Postman, Azure, mainly. I also consider communication with my colleagues and teamwork to be very important.
 
-                <red><b>¿Qué clase de persona soy?</b></red>
-                Si llegaste a leer hasta aquí, notarás que soy una persona que le gusta aprender y mejorar continuamente. <red>Este es mi oficio y quiero seguir creciendo en él</red>.
-                Algunos de mis hobbies son: patinar, coleccionar comics, salir a correr e ir a festivales de cine.`
+                <red><b>What kind of person am I?</b></red>
+                If you've read this far, you'll notice that I am a person who likes to learn and continuously improve. <red>This is my profession, and I want to keep growing in it</red>.
+                Some of my hobbies are: skating, collecting comics, running, and going to film festivals.`
         },
         skills: {
-            title: "Habilidades",
-            subtitle1: "Lenguajes y Frameworks",
-
-            subtitle2: "Más herramientas",
+            title: "Skills",
+            subtitle1: "Languages and Frameworks",
+            subtitle2: "More Tools",
         },
         projects: {
-            title: "Proyectos",
-            subtitle: "Mis trabajos",
-            singularTitle: "Proyecto",
-            singularTitleInProgress: "Proyecto en progreso",
-            description: "Aquí hay algunos de los proyectos en los que he estado trabajando recientemente:",
-            repository: "Repositorio",
-            userManual: "Manual de usuario",
-            back: "Volver",
-            screenshots: "Capturas",
-            technologies: "TECNOLOGÍAS",
-            report: "Informe",
+            title: "Projects",
+            subtitle: "My Work",
+            singularTitle: "Project",
+            singularTitleInProgress: "Project in Progress",
+            description: "Here are some of the projects I've been working on recently:",
+            repository: "Repository",
+            userManual: "User Manual",
+            back: "Back",
+            screenshots: "Screenshots",
+            technologies: "TECHNOLOGIES",
+            report: "Report",
             wolfenstein: {
                 description:
-                    `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 
-                El proyecto consistió en desarrollar una <red>versión multijugador del juego Wolfenstein 3D</red>.
-                Se desarrolló tanto el cliente como el servidor, utilizando principalmente C++.
+                    `Final project for the subject <red>"Programming Workshop I"</red> of the Computer Engineering career at UBA.
+                The project consisted of developing a <red>multiplayer version of the game Wolfenstein 3D</red>.
+                Both the client and the server were developed, mainly using C++.
 
-                El <red>servidor multithreading</red> se encarga de escuchar las conexiones TCP y gestiona los hilos de ejecución para manejar las salas de juego y la comunicación entre los clientes.            
-                El <red>cliente</red> se encarga de la interfaz gráfica y la comunicación con el servidor.
+                The <red>multithreading server</red> listens to TCP connections and manages execution threads to handle game rooms and communication between clients.
+                The <red>client</red> handles the graphical interface and communication with the server.
                 
-                Para la <red>lógica del BOT</red> se utilizó Lua para implementar el algoritmo de Dijkstra de caminos mínimos.
-                También se desarrolló un <red>editor de mapas para diseñar los niveles del juego</red> en Qt.
+                For the <red>BOT logic</red>, Lua was used to implement Dijkstra's shortest path algorithm.
+                A <red>map editor to design game levels</red> was also developed in Qt.
                 
-                Algunos conceptos involucrados: 
-                - Hilos
+                Some concepts involved:
+                - Threads
                 - Sockets
-                - Conexiones TCP
-                - Grafos
-                - Caminos mínimos
+                - TCP connections
+                - Graphs
+                - Shortest paths
                 - Mutex
                 - Event loop
-                - Paradigma de objetos
-                - Bibliotecas SDL
+                - Object paradigm
+                - SDL Libraries
                 `
             },
             fiufit: {
                 description:
-                    `Proyecto final de la materia <red>"Taller de Programación II"</red> de la carrera de Ingeniería en Informática de la UBA. 
-                El proyecto consistió en desarrollar una <red>aplicación móvil de entrenamiento personal</red> que permita a los usuarios realizar rutinas de ejercicios personalizadas y hacer un seguimiento de sus progresos.
+                    `Final project for the subject <red>"Programming Workshop II"</red> of the Computer Engineering career at UBA.
+                The project consisted of developing a <red>personal training mobile application</red> that allows users to perform personalized exercise routines and track their progress.
 
-                La aplicación fue desarrollada en <red>React Native</red> y <red>Node.js</red> para el backend. 
-                Utiliza una base de datos <red>SQL</red> para almacenar los datos de los usuarios y las rutinas de ejercicios.
-                Para almacenar los multimedia se utilizó <red>Firebase</red>.
-                Para autenticar a los usuarios se utilizaron <red>tokens JWT</red> propios o de Google para el caso del <red>login con Google</red>.
-                Para la gestión del proyecto realizamos <red>SCRUM</red> con sprints de 2 semanas durante los cuatro meses de desarrollo.
+                The application was developed in <red>React Native</red> and <red>Node.js</red> for the backend.
+                It uses a <red>SQL database</red> to store user data and exercise routines.
+                For multimedia storage, <red>Firebase</red> was used.
+                To authenticate users, <red>JWT tokens</red> were used, either own or Google for the <red>Google login</red>.
+                For project management, we used <red>SCRUM</red> with 2-week sprints for the four months of development.
 
-                Algunos conceptos involucrados:
+                Some concepts involved:
                 - React Native
                 - Node.js
                 - SQL
-                - Tokens JWT
-                - Access Token y Refresh Token
-                - Diseño de bases de datos
-                - Arquitectura de software
-                - Microservicios
+                - JWT Tokens
+                - Access Token and Refresh Token
+                - Database design
+                - Software architecture
+                - Microservices
                 - Test Coverage
-                - Metodologías ágiles
+                - Agile methodologies
                 `
             },
             streamclub: {
                 description:
-                    `<red>Proyecto final de la carrera</red> de Ingeniería en Informática de la UBA. 
+                    `<red>Final project for the Computer Engineering career</red> at UBA.
                     
-                    El proyecto consiste en una aplicación móvil para la <red>gestión de las plataformas de streaming contratadas por el usuario</red>, así como una <red>red social</red> para interactuar con otros usuarios y compartir recomendaciones de contenido.
-                El usuario podrá buscar películas y series, marcar las plataformas contratadas, ver estadísticas de uso de cada una, marcar contenido como visto o pendiente de ver y recibir recomendaciones personalizadas.
+                    The project consists of a mobile application for the <red>management of streaming platforms contracted by the user</red>, as well as a <red>social network</red> to interact with other users and share content recommendations.
+                Users can search for movies and series, mark the platforms they have subscribed to, view usage statistics for each, mark content as watched or pending, and receive personalized recommendations.
 
-                El frontend está implementado en <red>React Native</red> usando Expo. Para el backend, se utiliza una arquitectura con <red>microservicios</red> implementados en Node.js y en Python. 
+                The frontend is implemented in <red>React Native</red> using Expo. For the backend, a microservices architecture is used, implemented in Node.js and Python.
                 
-                Se utilizan bases de datos <red>SQL</red> para almacenar los datos personales de los usuarios y sus recomendaciones, y una base de datos <red>MongoDB</red> para guardar el contenido visto o pendiente.
-                Para autenticar a los usuarios, se utilizan <red>tokens JWT</red> propios, o de Google para el caso del <red>login con Google</red>.
-                Para la gestión del proyecto, se realiza <red>SCRUM</red> con sprints de 2 semanas.
+                <red>SQL databases</red> are used to store user data and their recommendations, and a <red>MongoDB</red> database to store watched or pending content.
+                To authenticate users, <red>JWT tokens</red> are used, either own or Google for the <red>Google login</red>.
+                For project management, we use <red>SCRUM</red> with 2-week sprints.
 
-                Para las recomendaciones, se utilizan modelos de <red>Machine Learning</red> que predicen el contenido de interés para el usuario, basado en su historial.
+                For recommendations, <red>Machine Learning models</red> are used to predict content of interest to the user, based on their history.
 
-                Algunos conceptos involucrados:
+                Some concepts involved:
                 - React Native
                 - Node.js
                 - SQL
-                - Tokens JWT
-                - Access Token y Refresh Token
-                - Diseño de bases de datos
-                - Microservicios
-                - Metodologías ágiles
+                - JWT Tokens
+                - Access Token and Refresh Token
+                - Database design
+                - Microservices
+                - Agile methodologies
                 - Machine Learning
                 `
             },
             moviebrowser: {
                 description:
-                    `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
-                El proyecto consistió en desarrollar una <red>aplicación web de búsqueda de películas</red> que permitiera a los usuarios buscar películas por título, marcar películas favoritas y exportarlas a un archivo.
-                La aplicación consume la <red>API de The Movie Database</red> para obtener la información de las películas.
-                Además, la información de las películas favoritas de cada usuario se almacena en <red>una base de datos SQL</red> configurada desde la misma interfaz Rails.
-                El objetivo del trabajo fue investigar e interiorizarse en el <red>desarrollo de aplicaciones basadas en Ruby y en el framework Ruby on Rails</red>.
+                    `Final project for the subject <red>"Language Theory"</red> of the Computer Engineering career at UBA.
+                The project consisted of developing a <red>movie search web application</red> that allowed users to search for movies by title, mark favorite movies, and export them to a file.
+                The application consumes the <red>The Movie Database API</red> to obtain movie information.
+                Additionally, the information of each user's favorite movies is stored in <red>a SQL database</red> configured from the same Rails interface.
+                The objective of the work was to investigate and become familiar with the <red>development of applications based on Ruby and the Ruby on Rails framework</red>.
                 
-                Algunos conceptos involucrados:
+                Some concepts involved:
                 - Ruby
                 - Ruby on Rails
                 - SQL
-                - Consumo de APIs`
+                - API Consumption`
             },
             tcp: {
                 title: "UDP based File Transfer Protocol",
                 description:
-                    `Proyecto de la materia <red>"Introducción a los Sistemas Distribuidos"</red> de la carrera de Ingeniería en Informática de la UBA.
-                En este proyecto, se creó una <red>aplicación que permite subir y descargar archivos</red> utilizando la interfaz de sockets y el protocolo de transporte UDP. 
-                El principal desafío fue construir un <red>protocolo de transferencia confiable basado en UDP</red>, donde pueden surgir diversos problemas de comunicación como: pérdida o duplicación de paquetes, retrasos en la entrega y consiguiente arribo fuera de orden.
-                Este tipo de problemáticas son resueltas con el protocolo TCP, por lo tanto, el desafío fue implementar un protocolo similar a TCP pero basado en UDP.
+                    `Project for the subject <red>"Introduction to Distributed Systems"</red> of the Computer Engineering career at UBA.
+                In this project, an <red>application that allows uploading and downloading files</red> using the sockets interface and the UDP transport protocol was created.
+                The main challenge was to build a <red>reliable transfer protocol based on UDP</red>, where various communication problems such as packet loss or duplication, delivery delays, and consequent out-of-order arrival may arise.
+                These issues are resolved with the TCP protocol, so the challenge was to implement a TCP-like protocol but based on UDP.
 
-                Algunos conceptos involucrados:
+                Some concepts involved:
                 - Sockets
-                - Protocolo UDP
-                - Protocolo TCP
-                - Protocolo IP
+                - UDP Protocol
+                - TCP Protocol
+                - IP Protocol
                 - Checksum
-                - Ventanas deslizantes
+                - Sliding windows
                 - Python
-                - Sniffer (Analizador de paquetes)`
+                - Sniffer (Packet Analyzer)`
             },
 
             homesquad: {
                 description:
-                `Proyecto final de la materia <red>"Taller de Desarrollo de Proyectos I"</red> de la carrera de Ingeniería en Informática de la UBA.
-                El proyecto consistió en desarrollar una <red>aplicación móvil de búsqueda de profesionales para el hogar</red>.
-                El cliente puede buscar profesionales para realizar trabajos en su hogar, como plomeros, electricistas, pintores, y el profesional puede registrarse en la aplicación y ofrecer sus servicios.
+                `Final project for the subject <red>"Project Development Workshop I"</red> of the Computer Engineering career at UBA.
+                The project consisted of developing a <red>mobile application to search for home professionals</red>.
+                The client can search for professionals to perform jobs at home, such as plumbers, electricians, painters, and the professional can register in the application and offer their services.
                 
-                El proyecto estuvo enfocado en aspectos de ventas y marketing, por lo que se realizaron investigaciones de mercado, análisis de la competencia, y desarrollo de un plan de marketing.
-                En la presentación final, se mostró el <red>prototipo de la aplicación</red> y se presentó el plan de inserción en el mercado junto con la proyección de ventas.
+                The project focused on sales and marketing aspects, so market research, competition analysis, and development of a marketing plan were conducted.
+                In the final presentation, the <red>application prototype</red> was shown, and the market insertion plan along with the sales projection was presented.
 
-                Algunos conceptos involucrados:
-                - Las 5 P del marketing
-                - Las 4 C del marketing
+                Some concepts involved:
+                - The 5 Ps of marketing
+                - The 4 Cs of marketing
                 - TypeScript`
             },
         },
         certificates: {
-            title: "Certificados",
-            courses: "Cursos",
+            title: "Certificates",
+            courses: "Courses",
+            chainlink: "Course focused on the construction, deployment, and execution of smart contracts",
         },
         contact: {
-            title: "Contacta conmigo",
+            title: "Contact Me",
         }
     }
 }

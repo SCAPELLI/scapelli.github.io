@@ -32,7 +32,7 @@ const index = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className="pb-2">CHAINLINK BOOTCAMP APRIL 2024</h3>
-                <p>Curso enfocado en la construcción, despliegue y ejecución de contratos inteligentes</p>
+                <p>{t.sections.certificates.chainlink}</p>
               </div>
             </div>
           </div>

@@ -174,6 +174,7 @@ export default {
         certificates: {
             title: "Certificados",
             courses: "Cursos",
+            chainlink: "Curso enfocado en la construcción, despliegue y ejecución de contratos inteligentes",
         },
         contact: {
             title: "Contacta conmigo",
