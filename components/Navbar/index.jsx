@@ -184,22 +184,22 @@ function index() {
                     <FaLinkedinIn size={30} />
                   </div>
 
-                  <div
+                  {/* <div
                     className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200 inline-block m-4"
                     onClick={() => window.open("https://github.com/scapelli", "_blank")}
                   >
                     <FaGithub size={30} />
-                  </div>
+                  </div> */}
 
                   <div
                     className="rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-105 ease-in duration-200 inline-block m-4"
                     onClick={() => window.open(pathCV, "_blank")}
                   >
                     <Image 
-                        src="/cv-letters-black.png" 
+                        src="/cv-black.png" 
                         alt="/" 
-                        width={20} 
-                        height={20}
+                        width={30} 
+                        height={30}
                       />
                   </div>
                 </div>
