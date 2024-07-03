@@ -196,7 +196,7 @@ function index() {
                     onClick={() => window.open(pathCV, "_blank")}
                   >
                     <Image 
-                        src="/cv-black.png" 
+                        src="/cv-black2.png" 
                         alt="/" 
                         width={30} 
                         height={30}
