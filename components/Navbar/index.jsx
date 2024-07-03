@@ -198,8 +198,8 @@ function index() {
                     <Image 
                         src="/cv-letters-black.png" 
                         alt="/" 
-                        width={30} 
-                        height={30}
+                        width={20} 
+                        height={20}
                       />
                   </div>
                 </div>
