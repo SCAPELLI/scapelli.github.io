@@ -153,7 +153,7 @@ const index = () => {
 
 
 
-        <Link href="/">
+        <Link href="/#projects">
           <p className="underline cursor-pointer hidden md:block">{t.sections.projects.back}</p>
         </Link>
       </div>

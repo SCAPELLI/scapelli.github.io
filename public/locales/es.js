@@ -19,7 +19,7 @@ export default {
             subtitle: "Quién soy",
             description:
                 `<red><b>Mi formación profesional</b></red>
-                Soy un desarrollador <red>próximo a recibirme de Ingeniero en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que, a lo largo de mi carrera, he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programación Orientada a Objetos, Arquitectura de Software, Principios de Diseño, buenas prácticas, Sistemas distribuidos y Programación concurrente, Bases de Datos, fundamentos de Machine Learning, fundamentos de Sistemas Operativos y Compiladores, Gestión de proyectos y Metodologías Ágiles, Test Driven Development.
+                Soy un desarrollador <red>próximo a recibirme de Ingeniero en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que, a lo largo de mi carrera, he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programación Orientada a Objetos, Arquitectura de Software, Principios de Diseño, buenas prácticas, Sistemas distribuidos y Programación concurrente, Bases de Datos, fundamentos de Machine Learning, fundamentos de Sistemas Operativos y Compiladores, Test Driven Development, Gestión de proyectos y Metodologías Ágiles.
 
                 <red><b>Mi trayectoria laboral</b></red>
                 Comencé a trabajar en el 2017 en Zoo Logic S.A., una empresa que brinda soluciones tecnológicas para la gestión de puntos de venta y facturación. Mi rol consistió en brindar soporte técnico a los clientes sobre los productos de la empresa. Trabajé simultáneamente durante toda mi carrera desde 2017 hasta 2023.
@@ -27,7 +27,7 @@ export default {
                 En 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>. Actualmente, mi trabajo consiste en desarrollar e integrar bibliotecas .NET desarrolladas en C# para ser consumidas por los productos de Zoo Logic S.A. Estas bibliotecas permiten la integración de los productos de Zoo Logic con otros sistemas de terceros, como medios de pago, APIs y bibliotecas de Windows. Utilizo tecnologías como .NET, SQL Server, Postman, Azure, principalmente. También considero muy importante la comunicación con mis compañeros y el trabajo en equipo.
 
                 <red><b>¿Qué clase de persona soy?</b></red>
-                Si llegaste a leer hasta aquí, notarás que soy una persona que le gusta aprender y mejorar continuamente. <red>Este es mi oficio y quiero seguir creciendo en él</red>.
+                Me considero una persona que disfruta aprender, adquirir nuevas habilidades, descubrir nuevas herramientas de trabajo y mejorar continuamente. Soy perfeccionista en mi trabajo, pero siempre priorizo los tiempos de entrega y el desarrollo de software iterativo. <red>Este es mi oficio y quiero seguir creciendo en él</red>.
                 Algunos de mis hobbies son: patinar, coleccionar comics, salir a correr e ir a festivales de cine.`
         },
         skills: {
@@ -78,7 +78,7 @@ export default {
                 El proyecto consistió en desarrollar una <red>aplicación móvil de entrenamiento personal</red> que permita a los usuarios realizar rutinas de ejercicios personalizadas y hacer un seguimiento de sus progresos.
 
                 La aplicación fue desarrollada en <red>React Native</red> y <red>Node.js</red> para el backend. 
-                Utiliza una base de datos <red>SQL</red> para almacenar los datos de los usuarios y las rutinas de ejercicios.
+                Se utilizó una base de datos <red>SQL</red> para almacenar los datos de los usuarios y las rutinas de ejercicios.
                 Para almacenar los multimedia se utilizó <red>Firebase</red>.
                 Para autenticar a los usuarios se utilizaron <red>tokens JWT</red> propios o de Google para el caso del <red>login con Google</red>.
                 Para la gestión del proyecto realizamos <red>SCRUM</red> con sprints de 2 semanas durante los cuatro meses de desarrollo.

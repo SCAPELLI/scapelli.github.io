@@ -19,7 +19,7 @@ export default {
             subtitle: "Who I am",
             description:
                 `<red><b>My Professional Background</b></red>
-                I am a developer <red>about to graduate in Computer Engineering at the University of Buenos Aires (UBA)</red>. I believe that, throughout my career, I have acquired solid foundations to perform well in the job market. To highlight a few: Object-Oriented Programming, Software Architecture, Design Principles, Best Practices, Distributed Systems and Concurrent Programming, Databases, fundamentals of Machine Learning, fundamentals of Operating Systems and Compilers, Project Management and Agile Methodologies, Test Driven Development.
+                I am a developer <red>about to graduate in Computer Engineering at the University of Buenos Aires (UBA)</red>. I believe that, throughout my career, I have acquired solid foundations to perform well in the job market. To highlight a few: Object-Oriented Programming, Software Architecture, Design Principles, Best Practices, Distributed Systems and Concurrent Programming, Databases, fundamentals of Machine Learning, fundamentals of Operating Systems and Compilers, Test Driven Development, Project Management and Agile Methodologies.
 
                 <red><b>My Career Path</b></red>
                 I started working in 2017 at Zoo Logic S.A, a company that provides technological solutions for point-of-sale management and invoicing. My role was to provide technical support to clients on the company's products. I worked simultaneously throughout my career from 2017 to 2023.
@@ -27,7 +27,7 @@ export default {
                 In 2024 I was transferred to the <red>Intelligence and Development</red> area. Currently, my job involves developing and integrating .NET libraries developed in C# to be consumed by Zoo Logic S.A's products. These libraries enable the integration of Zoo Logic products with other third-party systems, such as payment methods, APIs, and Windows libraries. I use technologies such as .NET, SQL Server, Postman, Azure, mainly. I also consider communication with my colleagues and teamwork to be very important.
 
                 <red><b>What kind of person am I?</b></red>
-                If you've read this far, you'll notice that I am a person who likes to learn and continuously improve. <red>This is my profession, and I want to keep growing in it</red>.
+                I consider myself a person who enjoys learning, acquiring new skills, discovering new work tools, and continuously improving. I am a perfectionist in my work, but I always prioritize delivery times and iterative software development. <red>This is my profession, and I want to keep growing in it</red>.
                 Some of my hobbies are: skating, collecting comics, running, and going to film festivals.`
         },
         skills: {
@@ -77,7 +77,7 @@ export default {
                 The project consisted of developing a <red>personal training mobile application</red> that allows users to perform personalized exercise routines and track their progress.
 
                 The application was developed in <red>React Native</red> and <red>Node.js</red> for the backend.
-                It uses a <red>SQL database</red> to store user data and exercise routines.
+                A <red>SQL database</red> was used to store user data and exercise routines.
                 For multimedia storage, <red>Firebase</red> was used.
                 To authenticate users, <red>JWT tokens</red> were used, either own or Google for the <red>Google login</red>.
                 For project management, we used <red>SCRUM</red> with 2-week sprints for the four months of development.
