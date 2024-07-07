@@ -4,7 +4,6 @@ import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Certificates from "../components/Certificates";
-import Contact from "../components/Contact";
 import { useRouter } from "next/router";
 import en from "../public/locales/en";
 import es from "../public/locales/es";

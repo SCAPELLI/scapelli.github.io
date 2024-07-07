@@ -1,8 +1,5 @@
 import React from "react";
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaGithub, FaTelegramPlane } from "react-icons/fa";
-import { BiDownload } from "react-icons/bi";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import en from "../../public/locales/en";
