@@ -8,8 +8,8 @@ export default {
             descriptionHeader: "Welcome to my website",
             shortDescription:
                 `Hi, I am <red>Sebastián</red>
-                A <red>software developer</red> and student
-                of <red>Computer Engineering</red>`,
+                A <red>software developer</red> soon to graduate
+                as a <red>Computer Engineer</red>`,
             description:
                 `With 2024 marking the end of my university career, I am looking for opportunities to continue growing professionally.
                 I invite you to learn more about me!`
