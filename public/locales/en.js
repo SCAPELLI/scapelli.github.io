@@ -7,7 +7,7 @@ export default {
             title: "Home",
             descriptionHeader: "Welcome to my website",
             shortDescription:
-                `Hi, I am <red>Sebastián</red>
+                `Hi, I'm <red>Sebastián</red>
                 A <red>software developer</red> soon to graduate
                 as a <red>Computer Engineer</red>`,
             description:
