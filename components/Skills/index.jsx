@@ -44,7 +44,7 @@ const index = () => {
           {skillsEntry({ logo: "/skills/figma.png", label: "Figma" })}
         </div>
         <h2 className="py-4">
-          Experiencia ocasional
+        {t.sections.skills.subtitle3}
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
           {skillsEntry({ logo: "/skills/c.png", label: "C" })}

@@ -34,6 +34,7 @@ export default {
             title: "Skills",
             subtitle1: "Languages and Frameworks",
             subtitle2: "More Tools",
+            subtitle3: "Occasional experience",
         },
         projects: {
             title: "Projects",
