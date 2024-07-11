@@ -70,7 +70,7 @@ function index() {
 
           />
           <p className="text-[#d72323] text-xl ml-4">
-            Sebastián Capelli &lt;/&gt;
+            &lt;Sebastián Capelli /&gt;
           </p>
         </Link>
         <div>
@@ -128,7 +128,7 @@ function index() {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <p className="text-[#d72323] text-base ">
-                  Sebastián Capelli &lt;/&gt;
+                &lt;Sebastián Capelli /&gt;
                 </p>
               </Link>
               <div
