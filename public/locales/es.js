@@ -7,28 +7,96 @@ export default {
             title: "Inicio",
             descriptionHeader: "Bienvenido a mi sitio web",
             shortDescription:
-                `Hola, soy <red>Sebastián</red> 
-                Un <red>desarrollador de software</red> próximo 
-                a recibirme como <red>Ingeniero en Informática</red>`, 
+                `Hola, soy <red>Sebastián</red>, 
+                <red>Ingeniero en Informática</red>.`,
             description:
-                `Con el 2024 marcando el final de mi carrera universitaria, me encuentro en la búsqueda de oportunidades para seguir creciendo profesionalmente. 
-                ¡Te invito a conocer más sobre mi!`
+                `Desarrollador full stack con foco en backend y arquitectura de bases de datos.
+    Actualmente lidero proyectos y equipos de desarrollo.`
         },
         aboutMe: {
             title: "Acerca de mí",
-            subtitle: "Quién soy",
-            description:
-                `<red><b>Mi formación profesional</b></red>
-                Soy un desarrollador <red>próximo a recibirme de Ingeniero en Informática en la Universidad de Buenos Aires (UBA)</red>. Considero que, a lo largo de mi carrera, he adquirido sólidas bases para poder desempeñarme en el mercado laboral. Por destacar algunas: Programación Orientada a Objetos, Arquitectura de Software, Principios de Diseño, buenas prácticas, Sistemas distribuidos y Programación concurrente, Bases de Datos, fundamentos de Machine Learning, fundamentos de Sistemas Operativos y Compiladores, Test Driven Development, Gestión de proyectos y Metodologías Ágiles.
+            subtitle: "Perfil profesional",
 
-                <red><b>Mi trayectoria laboral</b></red>
-                Comencé a trabajar en el 2017 en Zoo Logic S.A., una empresa que brinda soluciones tecnológicas para la gestión de puntos de venta y facturación. Mi rol consistió en brindar soporte técnico a los clientes sobre los productos de la empresa. Trabajé simultáneamente durante toda mi carrera desde 2017 hasta 2023.
+            currentJobs:
+                `<red><b><h4x>Sobre mi rol</h4x></b></red>
 
-                En 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>. Actualmente, mi trabajo consiste en desarrollar e integrar bibliotecas .NET desarrolladas en C# para ser consumidas por los productos de Zoo Logic S.A. Estas bibliotecas permiten la integración de los productos de Zoo Logic con otros sistemas de terceros, como medios de pago, APIs y bibliotecas de Windows. Utilizo tecnologías como .NET, SQL Server, Postman, Azure, principalmente. También considero muy importante la comunicación con mis compañeros y el trabajo en equipo.
+                <b>Netv S.A.</b>  
+                <i>Desarrollador Full Stack - Líder de Proyecto <b>(2024 - Actualidad)</b></i>
 
-                <red><b>¿Qué clase de persona soy?</b></red>
-                Me considero una persona que disfruta aprender, adquirir nuevas habilidades, descubrir nuevas herramientas de trabajo y mejorar continuamente. Soy perfeccionista en mi trabajo, pero siempre priorizo los tiempos de entrega y el desarrollo de software iterativo. <red>Este es mi oficio y quiero seguir creciendo en él</red>.
-                Algunos de mis hobbies son: patinar, coleccionar comics, salir a correr e ir a festivales de cine.`
+                Formo parte de una Software Factory especializada en <b>desarrollo SaaS</b>.
+                Asumo la responsabilidad de los proyectos de punta a punta: frontend, backend, diseño de bases de datos y arquitectura e implementación en la nube.
+
+                Lidero un equipo de desarrolladores, organizando tareas, priorizando entregas y definiendo lineamientos técnicos.
+                Trabajo en conjunto con los clientes para relevar necesidades de negocio, traducirlas en requisitos funcionales y formalizarlas en documentación técnica.
+
+                <b>Principales responsabilidades:</b>
+                - Desarrollo de nuevas funcionalidades y módulos.
+                - Configuración y despliegue de <b>servicios en AWS</b>.
+                - Coordinación técnica del equipo.
+                - Planificación y seguimiento de entregas.
+                - Diseño de arquitectura y bases de datos.
+                - Análisis de datos mediante consultas SQL complejas y scripts en Python utilizando ORM.
+                - Comunicación directa con clientes.
+
+                <b>Tecnologías y herramientas:</b>
+                - Python (Flask, SQLAlchemy, pytest)
+                - SQL avanzado y diseño de bases de datos
+                - Desarrollo de APIs REST
+                - Javascript, Typescript (React)
+                - AWS (Elastic Beanstalk, EC2, RDS, Batch, CloudWatch, S3, Lambda)
+                - Metodologías ágiles (Kanban y SCRUM)
+
+                <br/><br/>`,
+                
+            college: `
+                <red><b><h4x>Formación Académica</h4x></b></red>
+
+                <b>Ingeniero en Informática <i>(Egresado 2024)</i></b> 
+                <i>Universidad de Buenos Aires (UBA)</i>
+
+                Mi formación me brindó bases sólidas en:
+                - Arquitectura de Software y principios de diseño
+                - Sistemas distribuidos y programación concurrente
+                - Bases de datos y modelado
+                - Ciencia de datos
+                - Sistemas Operativos y Compiladores
+                - Test Driven Development y análisis de cobertura
+                - Gestión de proyectos ágiles
+
+                Estos fundamentos forman parte activa de mi práctica profesional.
+
+                <br/><br/>`,
+
+            previousJobs: `
+                <red><b><h4x>Experiencia Previa</h4x></b></red>
+
+                <b>Zoo Logic S.A.</b>  
+                <i>Desarrollador Visual FoxPro y .NET <b>(2023 - 2024)</b></i>
+                <i>Soporte técnico <b>(2017 - 2023)</b></i>
+
+                Ingresé en 2017 brindando soporte técnico en sistemas de facturación y punto de venta, adquiriendo una comprensión profunda de entornos productivos y necesidades reales de negocio.
+
+                En 2024 fui transferido al área de Inteligencia y Desarrollo, trabajando tanto con tecnología legacy (Visual FoxPro) como con bibliotecas .NET en C# para integración con medios de pago, APIs externas y componentes del sistema operativo.
+
+                Tecnologías utilizadas:
+                - .NET / C#
+                - SQL Server
+                - Azure
+                - Postman
+                - Integraciones API
+
+                <br/><br/>`,
+
+            personalInterests: `
+                <red><b><h4x>Intereses Personales</h4x></b></red>
+
+                Disfruto aprendiendo nuevas tecnologías, buscar el margen de mejora el todo proyecto y proceso de desarrollo y proponer soluciones escalables. Valoro el desarrollo iterativo, el feedback continuo y el impacto real en el negocio.
+
+                Este es mi oficio y continuo creciendo en el.
+
+                Algunos de mis hobbies son: patinar, coleccionar comics, hacer running e ir a festivales de cine.
+                
+                <br/><br/>`
         },
         skills: {
             title: "Habilidades",
@@ -159,7 +227,7 @@ export default {
 
             homesquad: {
                 description:
-                `Proyecto final de la materia <red>"Taller de Desarrollo de Proyectos I"</red> de la carrera de Ingeniería en Informática de la UBA.
+                    `Proyecto final de la materia <red>"Taller de Desarrollo de Proyectos I"</red> de la carrera de Ingeniería en Informática de la UBA.
                 El proyecto consistió en desarrollar una <red>aplicación móvil de búsqueda de profesionales para el hogar</red>.
                 El cliente puede buscar profesionales para realizar trabajos en su hogar, como plomeros, electricistas, pintores, y el profesional puede registrarse en la aplicación y ofrecer sus servicios.
                 
