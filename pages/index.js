@@ -15,7 +15,6 @@ export default function Home() {
 
   return (
     <div className="bg-gradient-to-b from-customGray via-red-900 to-black">
-
       <Head>
         <title>Sebastián Capelli</title>
         <meta
