@@ -8,7 +8,7 @@ import en from "../../public/locales/en";
 import es from "../../public/locales/es";
 
 
-function index() {
+function Index() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#111111");
@@ -233,4 +233,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

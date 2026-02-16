@@ -4,7 +4,7 @@ import en from "../../public/locales/en";
 import es from "../../public/locales/es";
 import skillsEntry from "./skillEntry";
 
-const index = () => {
+const Index = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : es;
@@ -64,4 +64,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

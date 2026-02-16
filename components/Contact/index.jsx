@@ -40,7 +40,7 @@ const renderContantInfo = () => {
   )
 }
 
-const renderIcons = () => {
+const RenderIcons = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : es;
@@ -98,7 +98,7 @@ const renderIcons = () => {
   )
 }
 
-const index = () => {
+const Index = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : es;
@@ -109,10 +109,10 @@ const index = () => {
           {t.sections.contact.title}
         </p>
       {renderContantInfo()}
-      {renderIcons()}
+      {RenderIcons()}
 
     </div>
   );
 };
 
-export default index;
+export default Index;
