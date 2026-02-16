@@ -5,6 +5,9 @@ import en from "../../public/locales/en";
 import es from "../../public/locales/es";
 import Image from "next/image";
 
+const justifiedText =
+  "py-4 text-[#B3B3B3] max-w-[850px] px-4 m-auto text-left md:text-justify leading-relaxed [hyphens:auto]";
+
 const Index = () => {
   const router = useRouter();
   const { locale } = router;
@@ -32,16 +35,34 @@ const Index = () => {
           />
 
           <p
-            className="py-4 text-[#B3B3B3] max-w-[70%] m-auto"
+            className={justifiedText}
             dangerouslySetInnerHTML={{ __html: description }}
           />
 
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div
               className="rounded-full shadow-custom-large shadow-black/40 p-6 cursor-pointer text-[#F5F5F5] hover:text-[#B11226] hover:scale-120 ease-in duration-200"
-              onClick={() => window.open("https://www.linkedin.com/in/scapelli", "_blank")}
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/scapelli", "_blank")
+              }
             >
               <FaLinkedinIn size={30} />
+            </div>
+
+            <div
+              className="group relative rounded-full shadow-custom-large shadow-black/40 p-4 cursor-pointer hover:scale-120 ease-in duration-200"
+              onClick={() => window.open(pathCV, "_blank")}
+            >
+              <div className="relative w-[50px] h-[50px]">
+                <Image
+                  src="/cv.png"
+                  alt="CV"
+                  fill
+                  className="object-contain scale-100 transition duration-200
+                    group-hover:[filter:brightness(0)_saturate(100%)_invert(14%)_sepia(88%)_saturate(6500%)_hue-rotate(345deg)_brightness(90%)_contrast(110%)]
+                  "
+                />
+              </div>
             </div>
 
             <div
@@ -49,23 +70,6 @@ const Index = () => {
               onClick={() => window.open("https://github.com/scapelli", "_blank")}
             >
               <FaGithub size={30} />
-            </div>
-
-            <div
-              className="group relative rounded-full shadow-custom-large shadow-black/40 p-4 cursor-pointer hover:scale-120 ease-in duration-200"
-              onClick={() => window.open(pathCV, "_blank")}
-            >
-              <div className="relative w-[30px] h-[30px]">
-                <Image
-                  src="/cv.png"
-                  alt="CV"
-                  fill
-                  className="
-        object-contain transition duration-200
-        group-hover:[filter:brightness(0)_saturate(100%)_invert(14%)_sepia(88%)_saturate(6500%)_hue-rotate(345deg)_brightness(90%)_contrast(110%)]
-      "
-                />
-              </div>
             </div>
 
           </div>
