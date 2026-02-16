@@ -5,44 +5,104 @@ export default {
     sections: {
         home: {
             title: "Home",
-            descriptionHeader: "Welcome to my website",
+            descriptionHeader: "",
             shortDescription:
-                `Hi, I'm <red>Sebastián</red>
-                A <red>software developer</red> soon to graduate
-                as a <red>Computer Engineer</red>`,
+                `Hi, I'm <red>Sebastián</red>, 
+                Computer Engineer 
+                and Full Stack Developer.`,
             description:
-                `With 2024 marking the end of my university career, I am looking for opportunities to continue growing professionally.
-                I invite you to learn more about me!`
+                `Specialized in backend and cloud infrastructure.
+                I lead projects and development teams.`
         },
         aboutMe: {
             title: "About Me",
-            subtitle: "Who I am",
+            subtitle: "Professional Profile",
+
             currentJobs:
-                `<red><b>My Professional Background</b></red>
-                I am a developer <red>about to graduate in Computer Engineering at the University of Buenos Aires (UBA)</red>. I believe that, throughout my career, I have acquired solid foundations to perform well in the job market. To highlight a few: Object-Oriented Programming, Software Architecture, Design Principles, Best Practices, Distributed Systems and Concurrent Programming, Databases, fundamentals of Machine Learning, fundamentals of Operating Systems and Compilers, Test Driven Development, Project Management and Agile Methodologies.
+                `<red><b><h4x>About My Role</h4x></b></red>
 
-                <red><b>My Career Path</b></red>
-                I started working in 2017 at Zoo Logic S.A, a company that provides technological solutions for point-of-sale management and invoicing. My role was to provide technical support to clients on the company's products. I worked simultaneously throughout my career from 2017 to 2023.
+                <h4x><b>Netv S.A.</b></h4x>
+                <b><i><red>Full Stack Developer – Project Lead </red>(2024 - Present)</b></i>
 
-                In 2024 I was transferred to the <red>Intelligence and Development</red> area. Currently, my job involves developing and integrating .NET libraries developed in C# to be consumed by Zoo Logic S.A's products. These libraries enable the integration of Zoo Logic products with other third-party systems, such as payment methods, APIs, and Windows libraries. I use technologies such as .NET, SQL Server, Postman, Azure, mainly. I also consider communication with my colleagues and teamwork to be very important.
+                I am part of a Software Factory specialized in <b>SaaS development</b>.
+                <red>I take end-to-end responsibility for projects</red>: frontend, backend, database design, and cloud service deployment.
 
-                <red><b>What kind of person am I?</b></red>
-                I consider myself a person who enjoys learning, acquiring new skills, discovering new work tools, and continuously improving. I am a perfectionist in my work, but I always prioritize delivery times and iterative software development. <red>This is my profession, and I want to keep growing in it</red>.
-                Some of my hobbies are: skating, collecting comics, running, and going to film festivals.`,
-            college:
-                `<red><b>My Professional Background</b></red>
-                I am a developer <red>about to graduate in Computer Engineering at the University of Buenos Aires (UBA)</red>. I believe that, throughout my career, I have acquired solid foundations to perform well in the job market. To highlight a few: Object-Oriented Programming, Software Architecture, Design Principles, Best Practices, Distributed Systems and Concurrent Programming, Databases, fundamentals of Machine Learning, fundamentals of Operating Systems and Compilers, Test Driven Development, Project Management and Agile Methodologies.
+                <red>I lead a team of developers</red>, organizing tasks, prioritizing deliverables, and defining technical guidelines.
+                <red>I work closely with clients</red> to gather business requirements, translate them into functional specifications, and formalize them into technical documentation.
 
-                <red><b>My Career Path</b></red>
-                I started working in 2017 at Zoo Logic S.A, a company that provides technological solutions for point-of-sale management and invoicing. My role was to provide technical support to clients on the company's products. I worked simultaneously throughout my career from 2017 to 2023.
+                <b>Main responsibilities:</b>
+                - <red>Development of new features</red> and modules.
+                - Configuration and <red>deployment of <b>AWS services</b></red>.
+                - Technical coordination of the team.
+                - <red>Planning</red> and delivery tracking.
+                - Architecture and database design.
+                - Data analysis using complex SQL queries and Python scripts with ORM.
+                - Direct communication with clients.
 
-                In 2024 I was transferred to the <red>Intelligence and Development</red> area. Currently, my job involves developing and integrating .NET libraries developed in C# to be consumed by Zoo Logic S.A's products. These libraries enable the integration of Zoo Logic products with other third-party systems, such as payment methods, APIs, and Windows libraries. I use technologies such as .NET, SQL Server, Postman, Azure, mainly. I also consider communication with my colleagues and teamwork to be very important.
+                <b>Technologies and tools:</b>
+                - <red>Python</red> (Flask, SQLAlchemy, Pytest)
+                - <red>MySQL</red>
+                - REST API development
+                - <red>JavaScript</red>, TypeScript (React, Next.js)
+                - <red>AWS (Elastic Beanstalk, EC2, RDS, Batch, CloudWatch, S3, Lambda)</red>
+                - Agile methodologies (Kanban and <red>Scrum</red>)
 
-                <red><b>What kind of person am I?</b></red>
-                I consider myself a person who enjoys learning, acquiring new skills, discovering new work tools, and continuously improving. I am a perfectionist in my work, but I always prioritize delivery times and iterative software development. <red>This is my profession, and I want to keep growing in it</red>.
-                Some of my hobbies are: skating, collecting comics, running, and going to film festivals.`,
-            previousJobs: ``,
-            personalInterests: ``
+                <br/><br/>`,
+                
+            college: `
+                <red><b><h4x>Education</h4x></b></red>
+
+                <h4x><b>University of Buenos Aires (UBA)</b></h4x>
+                <b><i><red>Bachelor's Degree in Computer Engineering </red>(Graduated 2024)</i></b>
+
+                During my studies, I developed solid foundations in:
+                - <red>Programming paradigms</red> (object-oriented, functional, structured)
+                - <red>Software Architecture</red> and design principles (SOLID, DRY, design patterns)
+                - Distributed systems and concurrent programming
+                - <red>Databases</red> and data modeling
+                - Introduction to <red>Data Science</red>
+                - Operating Systems and Compilers
+                - Test Driven Development and <red>Test Coverage Analysis</red>
+                - <red>Agile project management</red>
+
+                These foundations remain an active part of my professional practice.
+
+                <br/><br/>`,
+
+            previousJobs: `
+                <red><b><h4x>Previous Experience</h4x></b></red>
+
+                <h4x><b>Zoo Logic S.A.</b></h4x>
+                <i><b><red>Visual FoxPro and .NET Developer </red>(2023 - 2024)</b></i>
+                <i><b><red>Technical Support </red>(2017 - 2023)</b></i>
+
+                I initially worked in the technical support area, assisting clients with billing and point-of-sale systems developed by the company.
+
+                In 2024, I transitioned to the <red>Intelligence and Development</red> area, working with both legacy technology (Visual FoxPro) and <red>.NET in C#</red>.
+                I contributed to the implementation of libraries integrating Zoo Logic systems with <red>POS devices, external APIs, and Windows libraries</red>.
+
+                Technologies used:
+                - <red>.NET / C#</red>
+                - SQL Server
+                - Azure
+                - Postman
+                - <red>API integrations</red>
+
+
+                <h4x><b>Faculty of Engineering (UBA)</b></h4x>
+                <i><b><red>Teaching Assistant – Algorithms and Programming I </red>(2018 - 2019)</b></i>
+
+                I participated in grading programming assignments developed in Python, with a focus on code quality, modularization, elimination of duplicated code, and best practices.
+
+                <br/><br/>`,
+
+            personalInterests: `
+                <red><b><h4x>Personal Interests</h4x></b></red>
+
+                I enjoy working with new tools and continuously improving my technical skills. I consider myself detail-oriented, while always prioritizing delivery timelines and iterative software development. <red>This is my craft, and I continue growing in it.</red>
+                
+                Outside of work, I enjoy skating, collecting comics, running, and attending film festivals.
+                <br/><br/>`
         },
         skills: {
             title: "Skills",

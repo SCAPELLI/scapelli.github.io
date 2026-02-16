@@ -5,13 +5,14 @@ export default {
     sections: {
         home: {
             title: "Inicio",
-            descriptionHeader: "Bienvenido a mi sitio web",
+            descriptionHeader: "",
             shortDescription:
                 `Hola, soy <red>Sebastián</red>, 
-                <red>Ingeniero en Informática</red>.`,
+                Ingeniero en Informática 
+                y Desarrollador Full Stack.`,
             description:
-                `Desarrollador full stack con foco en backend y arquitectura de bases de datos.
-    Actualmente lidero proyectos y equipos de desarrollo.`
+                `Especializado en backend e infraestructura en la nube
+                Lidero proyectos y equipos de desarrollo.`
         },
         aboutMe: {
             title: "Acerca de mí",
@@ -20,48 +21,49 @@ export default {
             currentJobs:
                 `<red><b><h4x>Sobre mi rol</h4x></b></red>
 
-                <b>Netv S.A.</b>  
-                <i>Desarrollador Full Stack - Líder de Proyecto <b>(2024 - Actualidad)</b></i>
+                <h4x><b>Netv S.A.</b></h4x>
+                <b><i><red>Desarrollador Full Stack - Líder de Proyecto </red>(2024 - Actualidad)</b></i>
 
                 Formo parte de una Software Factory especializada en <b>desarrollo SaaS</b>.
-                Asumo la responsabilidad de los proyectos de punta a punta: frontend, backend, diseño de bases de datos y arquitectura e implementación en la nube.
+                <red>Asumo la responsabilidad de los proyectos de punta a punta</red>: frontend, backend, diseño de bases de datos y despliegue de servicios en la nube.
 
-                Lidero un equipo de desarrolladores, organizando tareas, priorizando entregas y definiendo lineamientos técnicos.
-                Trabajo en conjunto con los clientes para relevar necesidades de negocio, traducirlas en requisitos funcionales y formalizarlas en documentación técnica.
+                <red>Lidero un equipo de desarrolladores</red>, organizando tareas, priorizando entregas y definiendo lineamientos técnicos.
+                <red>Trabajo en conjunto con los clientes</red> para relevar necesidades de negocio, traducirlas en requisitos funcionales y formalizarlas en documentación técnica.
 
                 <b>Principales responsabilidades:</b>
-                - Desarrollo de nuevas funcionalidades y módulos.
-                - Configuración y despliegue de <b>servicios en AWS</b>.
+                - <red>Desarrollo de nuevas funcionalidades</red> y módulos.
+                - Configuración y <red>despliegue de <b>servicios en AWS</b></red>.
                 - Coordinación técnica del equipo.
-                - Planificación y seguimiento de entregas.
+                - <red>Planificación </red>y seguimiento de entregas.
                 - Diseño de arquitectura y bases de datos.
                 - Análisis de datos mediante consultas SQL complejas y scripts en Python utilizando ORM.
                 - Comunicación directa con clientes.
 
                 <b>Tecnologías y herramientas:</b>
-                - Python (Flask, SQLAlchemy, pytest)
-                - SQL avanzado y diseño de bases de datos
+                - <red>Python</red> (Flask, SQLAlchemy, Pytest)
+                - <red>MySQL</red>
                 - Desarrollo de APIs REST
-                - Javascript, Typescript (React)
-                - AWS (Elastic Beanstalk, EC2, RDS, Batch, CloudWatch, S3, Lambda)
-                - Metodologías ágiles (Kanban y SCRUM)
+                - <red>JavaScript</red>, TypeScript (React, Next.js)
+                - <red>AWS (Elastic Beanstalk, EC2, RDS, Batch, CloudWatch, S3, Lambda)</red>
+                - Metodologías ágiles (Kanban y <red>Scrum</red>)
 
                 <br/><br/>`,
                 
             college: `
                 <red><b><h4x>Formación Académica</h4x></b></red>
 
-                <b>Ingeniero en Informática <i>(Egresado 2024)</i></b> 
-                <i>Universidad de Buenos Aires (UBA)</i>
+                <h4x><b>Universidad de Buenos Aires (UBA)</b></h4x>
+                <b><i><red>Ingeniero en Informática </red>(Egresado 2024)</i></b>
 
-                Mi formación me brindó bases sólidas en:
-                - Arquitectura de Software y principios de diseño
+                Durante mi carrera adquirí bases sólidas en:
+                - <red>Paradigmas de programación </red>(orientada a objetos, funcional, estructurada)
+                - <red>Arquitectura de Software</red> y principios de diseño (SOLID, DRY, patrones de diseño)
                 - Sistemas distribuidos y programación concurrente
-                - Bases de datos y modelado
-                - Ciencia de datos
+                - <red>Bases de datos</red> y modelado
+                - Introducción a <red>Ciencia de Datos</red>
                 - Sistemas Operativos y Compiladores
-                - Test Driven Development y análisis de cobertura
-                - Gestión de proyectos ágiles
+                - Test Driven Development y <red>Análisis de Cobertura</red>
+                - <red>Gestión de proyectos ágiles</red>
 
                 Estos fundamentos forman parte activa de mi práctica profesional.
 
@@ -70,32 +72,36 @@ export default {
             previousJobs: `
                 <red><b><h4x>Experiencia Previa</h4x></b></red>
 
-                <b>Zoo Logic S.A.</b>  
-                <i>Desarrollador Visual FoxPro y .NET <b>(2023 - 2024)</b></i>
-                <i>Soporte técnico <b>(2017 - 2023)</b></i>
+                <h4x><b>Zoo Logic S.A.</b> </h4x>
+                <i><b><red>Desarrollador Visual FoxPro y .NET </red>(2023 - 2024)</b></i>
+                <i><b><red>Soporte técnico </red>(2017 - 2023)</b></i>
 
-                Ingresé en 2017 brindando soporte técnico en sistemas de facturación y punto de venta, adquiriendo una comprensión profunda de entornos productivos y necesidades reales de negocio.
+                Inicialmente me desempeñé en el área de soporte técnico, brindando asistencia a clientes sobre los sistemas de facturación y gestión de punto de venta desarrollados por la empresa.
 
-                En 2024 fui transferido al área de Inteligencia y Desarrollo, trabajando tanto con tecnología legacy (Visual FoxPro) como con bibliotecas .NET en C# para integración con medios de pago, APIs externas y componentes del sistema operativo.
+                En 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>, donde trabajé tanto con tecnología legacy (Visual FoxPro) como con <red>.NET en C#</red>. 
+                Participé en la implementación de bibliotecas para la integración de los sistemas de Zoo Logic con <red>dispositivos POS, APIs externas y bibliotecas de Windows</red>.
 
                 Tecnologías utilizadas:
-                - .NET / C#
+                - <red>.NET / C#</red>
                 - SQL Server
                 - Azure
                 - Postman
-                - Integraciones API
+                - <red>Integraciones API</red>
+
+
+                <h4x><b>Facultad de Ingeniería (UBA).</b></h4x>
+                <i><b><red>Colaborador en la materia Algoritmos y Programación I </red>(2018 - 2019)</b></i>
+
+                Participé en la corrección de trabajos prácticos desarrollados en Python, con foco en calidad de código, modularización, eliminación de código repetido y buenas prácticas.
 
                 <br/><br/>`,
 
             personalInterests: `
                 <red><b><h4x>Intereses Personales</h4x></b></red>
 
-                Disfruto aprendiendo nuevas tecnologías, buscar el margen de mejora el todo proyecto y proceso de desarrollo y proponer soluciones escalables. Valoro el desarrollo iterativo, el feedback continuo y el impacto real en el negocio.
-
-                Este es mi oficio y continuo creciendo en el.
-
-                Algunos de mis hobbies son: patinar, coleccionar comics, hacer running e ir a festivales de cine.
+                Disfruto trabajando con nuevas herramientas y actualizarme continuamente. Soy perfeccionista, pero siempre priorizo los tiempos de entrega y el desarrollo de software iterativo. <red>Este es mi oficio y disfruto creciendo en él</red>.
                 
+                Algunos de mis hobbies son: patinar, coleccionar cómics, hacer running e ir a festivales de cine.
                 <br/><br/>`
         },
         skills: {

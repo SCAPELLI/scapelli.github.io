@@ -11,8 +11,8 @@ const toHtml = (raw) => {
     .replace(/\n/g, "<br/>")
     .replace(/<red>/g, '<span class="text-[#D72323]">')
     .replace(/<\/red>/g, "</span>")
-    .replace(/<h4x>/g, '<div class="text-lg font-semibold">')
-    .replace(/<\/h4x>/g, "</div>");
+    .replace(/<h4x>/g, '<span class="text-lg font-semibold">')
+    .replace(/<\/h4x>/g, "</span>");
 };
 
 const index = () => {
