@@ -1,6 +1,7 @@
 // components/Projects/index.jsx
 import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
 import FiuFit from "../../public/projects/fiufit-thumbnail.png";
+import LaModista from "../../public/projects/lamodista-thumbnail.png";
 import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
 import TCP from "../../public/projects/tcp-thumbnail1.png";
 import HomeSquad from "../../public/projects/homesquad-thumbnail2.png";
@@ -24,7 +25,13 @@ const Index = () => {
         </p>
         <h2 className="py-4">{t.sections.projects.subtitle}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-          
+          <ProjectItem
+            title="La Modista"
+            thumbnail={LaModista}
+            projectURL="/LaModista"
+            skills={["nextjs2", "javascript"]}
+          />
+
           <ProjectItem
             title="Wolfenstein 3D"
             thumbnail={Wolfenstein}

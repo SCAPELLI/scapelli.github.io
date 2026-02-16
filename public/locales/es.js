@@ -123,6 +123,28 @@ export default {
             screenshots: "Capturas",
             technologies: "TECNOLOGÍAS",
             report: "Informe",
+            lamodista: {
+                description:
+                    `Trabajo freelance que consistió en el desarrollo de un sitio web para la sastrería <red>"Soluciones Textiles - La Modista"</red>.
+
+                    Se integró con <red>Google Maps JavaScript API</red> para mostrar la ubicación del local y se vinculó el sitio con el perfil de <red>Google Business Profile</red> para fortalecer la presencia digital del negocio.
+
+                    La aplicación fue desarrollada utilizando <red>Next.js</red> y desplegada en <red>Vercel</red>.
+
+                    Además, se gestionó el registro y configuración del dominio <red>.com.ar</red> a través de <red>nic.ar</red>, incluyendo la configuración de registros <red>DNS</red> y la implementación de correo electrónico corporativo mediante <red>Google Workspace</red>.
+
+                    Algunos conceptos involucrados:
+                    - Next.js
+                    - JavaScript
+                    - Git
+                    - Integración con APIs externas
+                    - Google Maps JavaScript API
+                    - Google Business Profile
+                    - Gestión de dominios (.com.ar)
+                    - Configuración de DNS
+                    - Google Workspace
+                    `
+            },
             wolfenstein: {
                 description:
                     `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 

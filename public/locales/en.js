@@ -48,7 +48,7 @@ export default {
                 - Agile methodologies (Kanban and <red>Scrum</red>)
 
                 <br/><br/>`,
-                
+
             college: `
                 <red><b><h4x>Education</h4x></b></red>
 
@@ -122,6 +122,29 @@ export default {
             screenshots: "Screenshots",
             technologies: "TECHNOLOGIES",
             report: "Report",
+            lamodista: {
+                description:
+                    `Freelance project consisting of the development of an institutional website for the tailoring business <red>"Soluciones Textiles - La Modista"</red>.
+
+                    The site was integrated with the <red>Google Maps JavaScript API</red> to display the store’s location and linked to the business’s <red>Google Business Profile</red> to strengthen its digital presence.
+
+                    The application was developed using <red>Next.js</red> and deployed on <red>Vercel</red>.
+
+                    Additionally, domain registration and configuration for the <red>.com.ar</red> domain were managed through <red>nic.ar</red>, including <red>DNS</red> record configuration and the implementation of corporate email using <red>Google Workspace</red>.
+
+                    Key concepts involved:
+                    - Next.js
+                    - JavaScript
+                    - Git
+                    - External API integration
+                    - Google Maps JavaScript API
+                    - Google Business Profile
+                    - Domain management (.com.ar)
+                    - DNS configuration
+                    - Google Workspace
+                    `
+            },
+
             wolfenstein: {
                 description:
                     `Final project for the subject <red>"Programming Workshop I"</red> of the Computer Engineering career at UBA.
@@ -232,7 +255,7 @@ export default {
 
             homesquad: {
                 description:
-                `Final project for the subject <red>"Project Development Workshop I"</red> of the Computer Engineering career at UBA.
+                    `Final project for the subject <red>"Project Development Workshop I"</red> of the Computer Engineering career at UBA.
                 The project consisted of developing a <red>mobile application to search for home professionals</red>.
                 The client can search for professionals to perform jobs at home, such as plumbers, electricians, painters, and the professional can register in the application and offer their services.
                 
