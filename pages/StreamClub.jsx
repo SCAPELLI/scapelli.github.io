@@ -67,6 +67,18 @@ const StreamClubPage = () => {
   const { locale } = router;
   const t = locale === "en" ? en : es;
 
+  const extraActions = (
+    <div className="flex flex-col gap-3">
+      <button
+        type="button"
+        className="px-8 py-2 w-full"
+        onClick={() => window.open("/projects/streamclub-informe.pdf", "_blank")}
+      >
+        {t.sections.projects.report}
+      </button>
+    </div>
+  );
+
   const descriptionHtml = t.sections.projects.streamclub.description
     .replace(/<red>/g, '<span class="text-[#D72323]">')
     .replace(/<\/red>/g, "</span>")
@@ -75,17 +87,18 @@ const StreamClubPage = () => {
   return (
     <ProjectLayout
       t={t}
-      title="Stream Club (Work in Progress)"
+      title="Stream Club"
       stack="TypeScript / React Native / SQL / Node.js"
       heroImage={StreamClubHero}
       heroAlt="Stream Club"
       backHref="/#projects"
       repoUrl={REPO_URL}
-      badgeText={t.sections.projects.singularTitleInProgress}
+      badgeText={t.sections.projects.singularTitle}
       projectName="Stream Club"
       descriptionHtml={descriptionHtml}
       video={<ProjectVideo videoId="vhRpTqwU3jo" />}
       screenshots={<StreamClubScreenshots />}
+      extraActions={extraActions}
       technologies={[
         "TypeScript",
         "Node.js",

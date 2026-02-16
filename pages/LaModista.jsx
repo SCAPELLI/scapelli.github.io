@@ -77,7 +77,7 @@ const LaModistaPage = () => {
       heroAlt="La Modista"
       backHref="/#projects"
       repoUrl={GITHUB_URL}
-      badgeText={t.sections.projects.singularTitle}
+      badgeText={t.sections.projects.freelanceTitle}
       projectName="La Modista"
       descriptionHtml={descriptionHtml}
       screenshots={<LaModistaScreenshots />}

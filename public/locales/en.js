@@ -112,9 +112,10 @@ export default {
         },
         projects: {
             title: "Projects",
-            subtitle: "My Work",
+            subtitle: "My public work",
             singularTitle: "Project",
             singularTitleInProgress: "Project in Progress",
+            freelanceTitle: "Freelance Project",
             description: "Here are some of the projects I've been working on recently:",
             repository: "Repository",
             userManual: "User Manual",

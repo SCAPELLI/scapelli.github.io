@@ -1,11 +1,11 @@
 // components/Projects/index.jsx
 import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
-import FiuFit from "../../public/projects/fiufit-thumbnail.png";
-import LaModista from "../../public/projects/lamodista-thumbnail.png";
+import FiuFit from "../../public/projects/fiufit-thumbnail2.png";
+import LaModista from "../../public/projects/lamodista-thumbnail2.png";
 import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
 import TCP from "../../public/projects/tcp-thumbnail1.png";
 import HomeSquad from "../../public/projects/homesquad-thumbnail2.png";
-import StreamClub from "../../public/projects/streamclub-thumbnail.png";
+import StreamClub from "../../public/projects/streamclub-thumbnail2.png";
 import ProjectItem from "../ProjectItem";
 import React from "react";
 import { useRouter } from "next/router";
@@ -33,6 +33,13 @@ const Index = () => {
           />
 
           <ProjectItem
+            title="Stream Club"
+            thumbnail={StreamClub}
+            projectURL="/StreamClub"
+            skills={["typescript", "reactnative", "sql", "nodejs"]}
+          />
+
+          <ProjectItem
             title="Wolfenstein 3D"
             thumbnail={Wolfenstein}
             projectURL="/Wolfenstein"
@@ -47,10 +54,10 @@ const Index = () => {
           />
 
           <ProjectItem
-            title="Stream Club (WIP)"
-            thumbnail={StreamClub}
-            projectURL="/StreamClub"
-            skills={["typescript", "reactnative", "sql", "nodejs"]}
+            title="HomeSquad"
+            thumbnail={HomeSquad}
+            projectURL="/HomeSquad"
+            skills={["typescript", "reactnative"]}
           />
 
           <ProjectItem
@@ -59,19 +66,12 @@ const Index = () => {
             projectURL="/MovieBrowser"
             skills={["ruby", "sql"]}
           />
-
+          
           <ProjectItem
             title="UDP based File Transfer Protocol"
             thumbnail={TCP}
             projectURL="/TCP"
             skills={["python", "wireshark"]}
-          />
-
-          <ProjectItem
-            title="HomeSquad"
-            thumbnail={HomeSquad}
-            projectURL="/HomeSquad"
-            skills={["typescript", "reactnative"]}
           />
         </div>
       </div>
