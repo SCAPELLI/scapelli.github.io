@@ -1,3 +1,4 @@
+// components/Skills/index.jsx
 import React from "react";
 import { useRouter } from "next/router";
 import en from "../../public/locales/en";
@@ -15,49 +16,37 @@ const Index = () => {
         <p className="text-xl tracking-widest uppercase text-[#ab1c1c]">
           {t.sections.skills.title}
         </p>
-        <h2 className="py-4">
+        <span className="py-4 font-bold text-xl">
           {t.sections.skills.subtitle1}
-        </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
-          {skillsEntry({ logo: "/skills/csharp.png", label: "C#" })}
-          {skillsEntry({ logo: "/skills/foxpro.png", label: "Visual Fox Pro" })}
+        </span>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 lg:gap-8 pb-4">
           {skillsEntry({ logo: "/skills/python.png", label: "Python" })}
-          {skillsEntry({ logo: "/skills/html.png", label: "HTML" })}
-          {skillsEntry({ logo: "/skills/javascript.png", label: "JavaScript" })}
-          {skillsEntry({ logo: "/skills/typescript.png", label: "TypeScript" })}
+          {skillsEntry({ logo: "/skills/flask.png", label: "Flask" })}
+          {skillsEntry({ logo: "/skills/sqlalchemy.png", label: "SQLAlchemy" })}
+          {skillsEntry({ logo: "/skills/mysql.png", label: "MySQL" })}
+          {skillsEntry({ logo: "/skills/aws.png", label: "AWS" })}
+          {skillsEntry({ logo: "/skills/docker.png", label: "Docker" })}
+          {skillsEntry({ logo: "/skills/pandas.png", label: "Pandas" })}
           {skillsEntry({ logo: "/skills/react.png", label: "React" })}
-          {skillsEntry({ logo: "/skills/reactnative.png", label: "React Native" })}
-          {skillsEntry({ logo: "/skills/sql.png", label: "SQL" })}
-        </div>
-        <h2 className="py-4">
-          {t.sections.skills.subtitle2}
-        </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
-          {skillsEntry({ logo: "/skills/git.png", label: "Git" })}
-          {skillsEntry({ logo: "/skills/github.png", label: "GitHub" })}
-          {skillsEntry({ logo: "/skills/postman.png", label: "Postman" })}
-          {skillsEntry({ logo: "/skills/dotnet.png", label: ".NET" })}
-          {skillsEntry({ logo: "/skills/swagger.png", label: "Swagger" })}
-          {skillsEntry({ logo: "/skills/linux.png", label: "Linux" })}
-          {skillsEntry({ logo: "/skills/uml.png", label: "UML" })}
-          {skillsEntry({ logo: "/skills/gimp.png", label: "Gimp" })}
-          {skillsEntry({ logo: "/skills/figma.png", label: "Figma" })}
-        </div>
-        <h2 className="py-4">
-        {t.sections.skills.subtitle3}
-        </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 pb-4">
-          {skillsEntry({ logo: "/skills/c.png", label: "C" })}
-          {skillsEntry({ logo: "/skills/cpp.png", label: "C++" })}
-          {skillsEntry({ logo: "/skills/nodejs.png", label: "Node.js" })}
           {skillsEntry({ logo: "/skills/nextjs2.png", label: "Next.js" })}
+          {skillsEntry({ logo: "/skills/typescript.png", label: "TypeScript" })}
+        </div>
+        <span className="py-4 font-bold text-xl">
+          {t.sections.skills.subtitle2}
+        </span>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 lg:gap-8 pb-4">
+          {skillsEntry({ logo: "/skills/nodejs.png", label: "Node.js" })}
+          {skillsEntry({ logo: "/skills/reactnative.png", label: "React Native" })}
+          {skillsEntry({ logo: "/skills/csharp.png", label: "C#" })}
+          {skillsEntry({ logo: "/skills/dotnet.png", label: ".NET" })}
+          {skillsEntry({ logo: "/skills/foxpro.png", label: "Visual Fox Pro" })}
           {skillsEntry({ logo: "/skills/java.png", label: "Java" })}
           {skillsEntry({ logo: "/skills/clojure.png", label: "Clojure" })}
           {skillsEntry({ logo: "/skills/solidity.png", label: "Solidity" })}
-          {skillsEntry({ logo: "/skills/ruby.png", label: "Ruby on Rails" })}
+          {skillsEntry({ logo: "/skills/c.png", label: "C" })}
+          {skillsEntry({ logo: "/skills/cpp.png", label: "C++" })}
           {skillsEntry({ logo: "/skills/rust.png", label: "Rust" })}
-          {skillsEntry({ logo: "/skills/smalltalk.png", label: "Pharo SmallTalk" })}
-          {skillsEntry({ logo: "/skills/wireshark.png", label: "Wireshark" })}
+          {skillsEntry({ logo: "/skills/figma.png", label: "Figma" })}
         </div>
       </div>
     </div>

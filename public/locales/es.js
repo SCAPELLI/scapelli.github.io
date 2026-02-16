@@ -106,10 +106,9 @@ export default {
         },
         skills: {
             title: "Habilidades",
-            subtitle1: "Lenguajes y Frameworks",
+            subtitle1: "Stack Principal",
 
-            subtitle2: "Más herramientas",
-            subtitle3: "Experiencia ocasional",
+            subtitle2: "Tambien trabajé con",
         },
         projects: {
             title: "Proyectos",

@@ -1,25 +1,18 @@
+// components/Skills/skillEntry.jsx
 import React from "react";
 import Image from "next/image";
 
-const skillsEntry = ({ logo, label }) => {
-    return (
+const SkillsEntry = ({ logo, label }) => {
+  return (
+    <div className="p-4 sm:p-5 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+      <div className="flex flex-col items-center justify-center gap-2">
+        <Image src={logo} width={48} height={48} alt={label} />
+        <h3 className="text-sm sm:text-base font-medium text-center leading-tight">
+          {label}
+        </h3>
+      </div>
+    </div>
+  );
+};
 
-        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                <div className="m-auto">
-                    <Image
-                        src={logo}
-                        width="64"
-                        height="64"
-                        alt="/"
-                    />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                    <h3>{label}</h3>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default skillsEntry;
+export default SkillsEntry;
