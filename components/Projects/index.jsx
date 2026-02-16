@@ -1,3 +1,4 @@
+// components/Projects/index.jsx
 import Wolfenstein from "../../public/projects/wolfestein-thumbnail.png";
 import FiuFit from "../../public/projects/fiufit-thumbnail.png";
 import MovieBrowser from "../../public/projects/moviebrowser-thumbnail.png";
@@ -22,7 +23,7 @@ const Index = () => {
           {t.sections.projects.title}
         </p>
         <h2 className="py-4">{t.sections.projects.subtitle}</h2>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           
           <ProjectItem
             title="Wolfenstein 3D"

@@ -3,42 +3,44 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const renderSkills = (skills) => {
-  return (
-    <div className="grid grid-cols-2 gap-4">
-      {skills.map((skill) => (
-        <Image
-          key={skill}
-          src={`/skills/${skill}.png`}
-          width={64}
-          height={64}
-          alt={skill}
-        />
-      ))}
-    </div>)
-}
+const SkillsRow = ({ skills }) => (
+  <div className="flex items-center gap-2">
+    {skills.map((skill) => (
+      <Image
+        key={skill}
+        src={`/skills/${skill}.png`}
+        width={28}
+        height={28}
+        alt={skill}
+      />
+    ))}
+  </div>
+);
 
-const index = ({ title, thumbnail, projectURL, skills }) => {
+const ProjectItem = ({ title, thumbnail, projectURL, skills }) => {
   return (
-    <Link href={projectURL} >
-      <div className="relative p-2 space-x-8 flex flex-col md:flex-row items-center justify-center md:flex shadow-custom-large shadow-gray-400  justify-center  shadow rounded-xl group hover:scale-105 ease-in duration-200">
-        <Image
-          className="rounded-xl w-full md:w-auto"
-          src={thumbnail}
-          loading="lazy"
-          width={300}
-          quality={100}
-          alt={title}
-        />
-        <div className="items-center pr-4 w-64 flex flex-col items-center justify-center">
-          <h2 className="text-center pb-8">{title}</h2>
-          <div className="flex justify-center space-x-8">
-            {renderSkills(skills)}
-          </div>
+    <Link href={projectURL} className="block">
+      <div className="w-full overflow-hidden rounded-xl shadow-custom-large shadow-gray-400 group hover:scale-[1.02] transition-transform duration-200">
+        {/* Imagen con alto fijo para que todas las cards ocupen similar espacio */}
+        <div className="relative w-full h-96">
+          <Image
+            src={thumbnail}
+            alt={title}
+            fill
+            className="object-cover object-top"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            priority={false}
+          />
+        </div>
+
+        {/* Footer compacto */}
+        <div className="px-4 py-3 flex items-center justify-between gap-4">
+          <h3 className="text-base font-semibold leading-tight">{title}</h3>
+          <SkillsRow skills={skills} />
         </div>
       </div>
     </Link>
   );
 };
 
-export default index;
+export default ProjectItem;
