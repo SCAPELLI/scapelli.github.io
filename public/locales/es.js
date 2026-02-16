@@ -171,7 +171,7 @@ export default {
             },
             fiufit: {
                 description:
-                    `Proyecto final de la materia <red>"Taller de Programación II"</red> de la carrera de Ingeniería en Informática de la UBA. 
+                    `Proyecto final de la materia <red><i>Taller de Programación II</i></red> de la carrera de Ingeniería en Informática de la UBA. 
                 El proyecto consistió en desarrollar una <red>aplicación móvil de entrenamiento personal</red> que permita a los usuarios realizar rutinas de ejercicios personalizadas y hacer un seguimiento de sus progresos.
 
                 La aplicación fue desarrollada en <red>React Native</red> y <red>Node.js</red> para el backend. 

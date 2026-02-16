@@ -147,7 +147,7 @@ export default {
 
             wolfenstein: {
                 description:
-                    `Final project for the subject <red>"Programming Workshop I"</red> of the Computer Engineering career at UBA.
+                    `Final project for the subject <red><i>Programming Workshop I</i></red> of the Computer Engineering career at UBA.
                 The project consisted of developing a <red>multiplayer version of the game Wolfenstein 3D</red>.
                 Both the client and the server were developed, mainly using C++.
 
@@ -171,7 +171,7 @@ export default {
             },
             fiufit: {
                 description:
-                    `Final project for the subject <red>"Programming Workshop II"</red> of the Computer Engineering career at UBA.
+                    `Final project for the subject <red><i>Programming Workshop II</i></red> of the Computer Engineering career at UBA.
                 The project consisted of developing a <red>personal training mobile application</red> that allows users to perform personalized exercise routines and track their progress.
 
                 The application was developed in <red>React Native</red> and <red>Node.js</red> for the backend.
@@ -222,7 +222,7 @@ export default {
             },
             moviebrowser: {
                 description:
-                    `Final project for the subject <red>"Language Theory"</red> of the Computer Engineering career at UBA.
+                    `Final project for the subject <red><i>Language Theory</i></red> of the Computer Engineering career at UBA.
                 The project consisted of developing a <red>movie search web application</red> that allowed users to search for movies by title, mark favorite movies, and export them to a file.
                 The application consumes the <red>The Movie Database API</red> to obtain movie information.
                 Additionally, the information of each user's favorite movies is stored in <red>a SQL database</red> configured from the same Rails interface.
@@ -237,7 +237,7 @@ export default {
             tcp: {
                 title: "UDP based File Transfer Protocol",
                 description:
-                    `Project for the subject <red>"Introduction to Distributed Systems"</red> of the Computer Engineering career at UBA.
+                    `Project for the subject <red><i>Introduction to Distributed Systems</i></red> of the Computer Engineering career at UBA.
                 In this project, an <red>application that allows uploading and downloading files</red> using the sockets interface and the UDP transport protocol was created.
                 The main challenge was to build a <red>reliable transfer protocol based on UDP</red>, where various communication problems such as packet loss or duplication, delivery delays, and consequent out-of-order arrival may arise.
                 These issues are resolved with the TCP protocol, so the challenge was to implement a TCP-like protocol but based on UDP.
@@ -255,7 +255,7 @@ export default {
 
             homesquad: {
                 description:
-                    `Final project for the subject <red>"Project Development Workshop I"</red> of the Computer Engineering career at UBA.
+                    `Final project for the subject <red><i>Project Development Workshop I</i></red> of the Computer Engineering career at UBA.
                 The project consisted of developing a <red>mobile application to search for home professionals</red>.
                 The client can search for professionals to perform jobs at home, such as plumbers, electricians, painters, and the professional can register in the application and offer their services.
                 
