@@ -108,7 +108,7 @@ export default {
             title: "Habilidades",
             subtitle1: "Stack Principal",
 
-            subtitle2: "Tambien trabajé con",
+            subtitle2: "También trabajé con",
         },
         projects: {
             title: "Proyectos",
