@@ -26,7 +26,6 @@ export default {
 
                 Formo parte de una Software Factory especializada en <b>desarrollo SaaS</b>.
                 <red>Asumo la responsabilidad de los proyectos de punta a punta</red>: frontend, backend, diseño de bases de datos y despliegue de servicios en la nube.
-
                 <red>Lidero un equipo de desarrolladores</red>, organizando tareas, priorizando entregas y definiendo lineamientos técnicos.
                 <red>Trabajo en conjunto con los clientes</red> para relevar necesidades de negocio, traducirlas en requisitos funcionales y formalizarlas en documentación técnica.
 

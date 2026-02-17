@@ -26,7 +26,6 @@ export default {
 
                 I am part of a Software Factory specialized in <b>SaaS development</b>.
                 <red>I take end-to-end responsibility for projects</red>: frontend, backend, database design, and cloud service deployment.
-
                 <red>I lead a team of developers</red>, organizing tasks, prioritizing deliverables, and defining technical guidelines.
                 <red>I work closely with clients</red> to gather business requirements, translate them into functional specifications, and formalize them into technical documentation.
 
