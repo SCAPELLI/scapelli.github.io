@@ -5,8 +5,9 @@ import en from "../../public/locales/en";
 import es from "../../public/locales/es";
 import Image from "next/image";
 
-const justifiedText =
-  "py-4 text-[#B3B3B3] max-w-[850px] px-4 m-auto text-left md:text-justify leading-relaxed [hyphens:auto]";
+const descriptionText =
+  "py-4 text-[#B3B3B3] max-w-[750px] px-4 m-auto text-left md:text-center leading-relaxed tracking-wide";
+
 
 const Index = () => {
   const router = useRouter();
@@ -35,7 +36,7 @@ const Index = () => {
           />
 
           <p
-            className={justifiedText}
+            className={descriptionText}
             dangerouslySetInnerHTML={{ __html: description }}
           />
 
@@ -58,7 +59,9 @@ const Index = () => {
                   src="/cv.png"
                   alt="CV"
                   fill
-                  className="object-contain scale-100 transition duration-200
+                  className="
+                    object-contain scale-100 transition duration-200
+                    [filter:brightness(1)_saturate(1)_hue-rotate(0deg)_sepia(0)_contrast(1)]
                     group-hover:[filter:brightness(0)_saturate(100%)_invert(14%)_sepia(88%)_saturate(6500%)_hue-rotate(345deg)_brightness(90%)_contrast(110%)]
                   "
                 />
