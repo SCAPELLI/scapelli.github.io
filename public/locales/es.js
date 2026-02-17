@@ -125,7 +125,7 @@ export default {
             report: "Informe",
             lamodista: {
                 description:
-                    `Trabajo freelance que consistió en el desarrollo de un sitio web para la sastrería <red>"Soluciones Textiles - La Modista"</red>.
+                    `Trabajo freelance que consistió en el desarrollo de un sitio web para la sastrería <red><i>Soluciones Textiles - La Modista</i></red>.
 
                     Se integró con <red>Google Maps JavaScript API</red> para mostrar la ubicación del local y se vinculó el sitio con el perfil de <red>Google Business Profile</red> para fortalecer la presencia digital del negocio.
 
@@ -147,7 +147,7 @@ export default {
             },
             wolfenstein: {
                 description:
-                    `Proyecto final de la materia <red>"Taller de Programación I"</red> de la carrera de Ingeniería en Informática de la UBA. 
+                    `Proyecto final de la materia <red><i>Taller de Programación I</i></red> de la carrera de Ingeniería en Informática de la UBA. 
                 El proyecto consistió en desarrollar una <red>versión multijugador del juego Wolfenstein 3D</red>.
                 Se desarrolló tanto el cliente como el servidor, utilizando principalmente C++.
 
@@ -222,7 +222,7 @@ export default {
             },
             moviebrowser: {
                 description:
-                    `Proyecto final de la materia <red>"Teoría del Lenguaje"</red> de la carrera de Ingeniería en Informática de la UBA.
+                    `Proyecto final de la materia <red><i>Teoría del Lenguaje</i></red> de la carrera de Ingeniería en Informática de la UBA.
                 El proyecto consistió en desarrollar una <red>aplicación web de búsqueda de películas</red> que permitiera a los usuarios buscar películas por título, marcar películas favoritas y exportarlas a un archivo.
                 La aplicación consume la <red>API de The Movie Database</red> para obtener la información de las películas.
                 Además, la información de las películas favoritas de cada usuario se almacena en <red>una base de datos SQL</red> configurada desde la misma interfaz Rails.
@@ -237,7 +237,7 @@ export default {
             tcp: {
                 title: "UDP based File Transfer Protocol",
                 description:
-                    `Proyecto de la materia <red>"Introducción a los Sistemas Distribuidos"</red> de la carrera de Ingeniería en Informática de la UBA.
+                    `Proyecto de la materia <red><i>Introducción a los Sistemas Distribuidos</i></red> de la carrera de Ingeniería en Informática de la UBA.
                 En este proyecto, se creó una <red>aplicación que permite subir y descargar archivos</red> utilizando la interfaz de sockets y el protocolo de transporte UDP. 
                 El principal desafío fue construir un <red>protocolo de transferencia confiable basado en UDP</red>, donde pueden surgir diversos problemas de comunicación como: pérdida o duplicación de paquetes, retrasos en la entrega y consiguiente arribo fuera de orden.
                 Este tipo de problemáticas son resueltas con el protocolo TCP, por lo tanto, el desafío fue implementar un protocolo similar a TCP pero basado en UDP.
@@ -255,7 +255,7 @@ export default {
 
             homesquad: {
                 description:
-                    `Proyecto final de la materia <red>"Taller de Desarrollo de Proyectos I"</red> de la carrera de Ingeniería en Informática de la UBA.
+                    `Proyecto final de la materia <red><i>Taller de Desarrollo de Proyectos I</i></red> de la carrera de Ingeniería en Informática de la UBA.
                 El proyecto consistió en desarrollar una <red>aplicación móvil de búsqueda de profesionales para el hogar</red>.
                 El cliente puede buscar profesionales para realizar trabajos en su hogar, como plomeros, electricistas, pintores, y el profesional puede registrarse en la aplicación y ofrecer sus servicios.
                 
