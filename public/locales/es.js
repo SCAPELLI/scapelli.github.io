@@ -22,7 +22,7 @@ export default {
                 `<red><b><h4x>Sobre mi rol</h4x></b></red>
 
                 <h4x><b>Netv S.A.</b></h4x>
-                <b><i><red>Desarrollador Full Stack - Líder de Proyecto </red>(2024 - Actualidad)</b></i>
+                <b><i><red>Desarrollador Full Stack - Líder de Proyecto </red>(2022 - Actualidad)</b></i>
 
                 Formo parte de una Software Factory especializada en <b>desarrollo SaaS</b>.
                 <red>Asumo la responsabilidad de los proyectos de punta a punta</red>: frontend, backend, diseño de bases de datos y despliegue de servicios en la nube.
@@ -72,12 +72,12 @@ export default {
                 <red><b><h4x>Experiencia Previa</h4x></b></red>
 
                 <h4x><b>Zoo Logic S.A.</b> </h4x>
-                <i><b><red>Desarrollador Visual FoxPro y .NET </red>(2023 - 2024)</b></i>
-                <i><b><red>Soporte técnico </red>(2017 - 2023)</b></i>
+                <i><b><red>Desarrollador Visual FoxPro y .NET </red>(2022)</b></i>
+                <i><b><red>Soporte técnico </red>(2017 - 2022)</b></i>
 
                 Inicialmente me desempeñé en el área de soporte técnico, brindando asistencia a clientes sobre los sistemas de facturación y gestión de punto de venta desarrollados por la empresa.
 
-                En 2024 me transfirieron al área de <red>Inteligencia y Desarrollo</red>, donde trabajé tanto con tecnología legacy (Visual FoxPro) como con <red>.NET en C#</red>. 
+                En 2022 me transfirieron al área de <red>Inteligencia y Desarrollo</red>, donde trabajé tanto con tecnología legacy (Visual FoxPro) como con <red>.NET en C#</red>. 
                 Participé en la implementación de bibliotecas para la integración de los sistemas de Zoo Logic con <red>dispositivos POS, APIs externas y bibliotecas de Windows</red>.
 
                 Tecnologías utilizadas:
@@ -89,7 +89,7 @@ export default {
 
 
                 <h4x><b>Facultad de Ingeniería (UBA).</b></h4x>
-                <i><b><red>Colaborador en la materia Algoritmos y Programación I </red>(2018 - 2019)</b></i>
+                <i><b><red>Colaborador en la materia Algoritmos y Programación I </red>(2018 - 2020)</b></i>
 
                 Participé en la corrección de trabajos prácticos desarrollados en Python, con foco en calidad de código, modularización, eliminación de código repetido y buenas prácticas.
 

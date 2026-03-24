@@ -22,7 +22,7 @@ export default {
                 `<red><b><h4x>About My Role</h4x></b></red>
 
                 <h4x><b>Netv S.A.</b></h4x>
-                <b><i><red>Full Stack Developer – Project Lead </red>(2024 - Present)</b></i>
+                <b><i><red>Full Stack Developer – Project Lead </red>(2022 - Present)</b></i>
 
                 I am part of a Software Factory specialized in <b>SaaS development</b>.
                 <red>I take end-to-end responsibility for projects</red>: frontend, backend, database design, and cloud service deployment.
@@ -72,12 +72,12 @@ export default {
                 <red><b><h4x>Previous Experience</h4x></b></red>
 
                 <h4x><b>Zoo Logic S.A.</b></h4x>
-                <i><b><red>Visual FoxPro and .NET Developer </red>(2023 - 2024)</b></i>
-                <i><b><red>Technical Support </red>(2017 - 2023)</b></i>
+                <i><b><red>Visual FoxPro and .NET Developer </red>(2022)</b></i>
+                <i><b><red>Technical Support </red>(2017 - 2022)</b></i>
 
                 I initially worked in the technical support area, assisting clients with billing and point-of-sale systems developed by the company.
 
-                In 2024, I transitioned to the <red>Intelligence and Development</red> area, working with both legacy technology (Visual FoxPro) and <red>.NET in C#</red>.
+                In 2022, I transitioned to the <red>Intelligence and Development</red> area, working with both legacy technology (Visual FoxPro) and <red>.NET in C#</red>.
                 I contributed to the implementation of libraries integrating Zoo Logic systems with <red>POS devices, external APIs, and Windows libraries</red>.
 
                 Technologies used:
@@ -89,7 +89,7 @@ export default {
 
 
                 <h4x><b>Faculty of Engineering (UBA)</b></h4x>
-                <i><b><red>Teaching Assistant – Algorithms and Programming I </red>(2018 - 2019)</b></i>
+                <i><b><red>Teaching Assistant – Algorithms and Programming I </red>(2018 - 2020)</b></i>
 
                 I participated in grading programming assignments developed in Python, with a focus on code quality, modularization, elimination of duplicated code, and best practices.
 
